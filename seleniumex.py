@@ -55,7 +55,8 @@ driver.delete_all_cookies()
 # create json file for output
 timestr = time.strftime("%Y-%m-%d_%H-%M-%S")
 filename = f"cookies_{timestr}.json"
-open(filename, 'w')
+with open(filename, 'w') as fp:
+    json.dump([], fp, indent=4)
 
 # Install Extension PrivacyBadger
 driver.install_addon('privacy_badger-2021.11.23.1-an+fx.xpi', temporary=True)
