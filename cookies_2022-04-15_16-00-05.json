@@ -1,0 +1,513 @@
+{
+    "https://www.bdo.lt/lt-lt/mes-padedame-igyvendinti-jusu-svajones": [
+        [
+            {
+                "name": "CMSCsrfCookie",
+                "value": "mz8lo8k1AxQO1arhTn4uvw43AhyBLTeZvnO/9GVU",
+                "path": "/",
+                "domain": "www.bdo.lt",
+                "secure": true,
+                "httpOnly": true,
+                "sameSite": "Lax"
+            },
+            {
+                "name": "ASP.NET_SessionId",
+                "value": "txdnfu03ggehkhz0jtdpoifj",
+                "path": "/",
+                "domain": "www.bdo.lt",
+                "secure": true,
+                "httpOnly": true,
+                "sameSite": "Lax"
+            },
+            {
+                "name": "ARRAffinity",
+                "value": "bb5d0d7f12580bd2fd2d488b12fcc9a1503810d0935e5ea285085a47f04172d9",
+                "path": "/",
+                "domain": ".www.bdo.lt",
+                "secure": true,
+                "httpOnly": true,
+                "sameSite": "None"
+            },
+            {
+                "name": "ARRAffinitySameSite",
+                "value": "bb5d0d7f12580bd2fd2d488b12fcc9a1503810d0935e5ea285085a47f04172d9",
+                "path": "/",
+                "domain": ".www.bdo.lt",
+                "secure": true,
+                "httpOnly": true,
+                "sameSite": "None"
+            },
+            {
+                "name": "_ga",
+                "value": "GA1.2.848981083.1650031088",
+                "path": "/",
+                "domain": ".bdo.lt",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1713103088,
+                "sameSite": "None"
+            },
+            {
+                "name": "_gid",
+                "value": "GA1.2.1072461706.1650031088",
+                "path": "/",
+                "domain": ".bdo.lt",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1650117488,
+                "sameSite": "None"
+            },
+            {
+                "name": "_gat_%2Flt-lt%2Fmes-padedame-igyvendinti-jusu-svajones",
+                "value": "1",
+                "path": "/",
+                "domain": ".bdo.lt",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1650031148,
+                "sameSite": "None"
+            }
+        ]
+    ],
+    "https://www.2cyou.de/": [
+        [
+            {
+                "name": "pum_alm_first_activity",
+                "value": "1650031090648",
+                "path": "/",
+                "domain": "www.2cyou.de",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1650117490,
+                "sameSite": "None"
+            },
+            {
+                "name": "pum_alm_last_activity",
+                "value": "1650031090864",
+                "path": "/",
+                "domain": "www.2cyou.de",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1650117490,
+                "sameSite": "None"
+            }
+        ]
+    ],
+    "https://4alexis.gr/": [
+        []
+    ],
+    "https://www.stadtwerke-bielefeld.de/": [
+        [
+            {
+                "name": "_gcl_au",
+                "value": "1.1.2133690985.1650031106",
+                "path": "/",
+                "domain": ".stadtwerke-bielefeld.de",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1657807105,
+                "sameSite": "None"
+            },
+            {
+                "name": "_ga",
+                "value": "GA1.1.1368524245.1650031106",
+                "path": "/",
+                "domain": ".stadtwerke-bielefeld.de",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1713103105,
+                "sameSite": "None"
+            },
+            {
+                "name": "_ga_GTQRBDMD8W",
+                "value": "GS1.1.1650031105.1.1.1650031107.0",
+                "path": "/",
+                "domain": ".stadtwerke-bielefeld.de",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1713103107,
+                "sameSite": "None"
+            }
+        ]
+    ],
+    "https://www.aenv-ict.nl/": [
+        []
+    ],
+    "https://www.bai.at/": [
+        [
+            {
+                "name": "_icl_current_language",
+                "value": "de",
+                "path": "/",
+                "domain": "www.bai.at",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1650117512,
+                "sameSite": "None"
+            }
+        ]
+    ],
+    "https://b2nekretnine.hr/": [
+        []
+    ],
+    "https://www.basic-fit.com/": [
+        [
+            {
+                "name": "sid",
+                "value": "qP02zJTCcGl_GSrFaIio5DfXH9Lwj-SnsY0",
+                "path": "/",
+                "domain": "www.basic-fit.com",
+                "secure": true,
+                "httpOnly": false,
+                "sameSite": "None"
+            },
+            {
+                "name": "dwanonymous_34290505219b9e6230c56414e8f6f7bf",
+                "value": "ab58bEdEUmwy2k5fXrZKqSMKTZ",
+                "path": "/",
+                "domain": "www.basic-fit.com",
+                "secure": true,
+                "httpOnly": false,
+                "expiry": 1665583119,
+                "sameSite": "None"
+            },
+            {
+                "name": "__cq_dnt",
+                "value": "1",
+                "path": "/",
+                "domain": "www.basic-fit.com",
+                "secure": true,
+                "httpOnly": false,
+                "sameSite": "None"
+            },
+            {
+                "name": "dw_dnt",
+                "value": "1",
+                "path": "/",
+                "domain": "www.basic-fit.com",
+                "secure": true,
+                "httpOnly": false,
+                "sameSite": "None"
+            },
+            {
+                "name": "dwsid",
+                "value": "TPFD4mHvw6s1EdIrqr6qRtPbavwFoldl-4WIndEpaIc6zZrn72bm2WU-XrdhazHtJvQ_34sFaYG1JruFsYIQ8w==",
+                "path": "/",
+                "domain": "www.basic-fit.com",
+                "secure": true,
+                "httpOnly": true,
+                "sameSite": "None"
+            },
+            {
+                "name": "cookieconsent_level",
+                "value": "20",
+                "path": "/",
+                "domain": "www.basic-fit.com",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1681567120,
+                "sameSite": "None"
+            },
+            {
+                "name": "cookieconsent_variant",
+                "value": "wnl__a1003",
+                "path": "/",
+                "domain": "www.basic-fit.com",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1681567120,
+                "sameSite": "None"
+            },
+            {
+                "name": "cookieconsent_seen",
+                "value": "1",
+                "path": "/",
+                "domain": "www.basic-fit.com",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1681567120,
+                "sameSite": "None"
+            },
+            {
+                "name": "_tdid",
+                "value": "td-l20hxd00-mhoroby-llsnqcehsjs",
+                "path": "/",
+                "domain": ".basic-fit.com",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1650635920,
+                "sameSite": "Lax"
+            },
+            {
+                "name": "_ga_7XWEJD1FC5",
+                "value": "GS1.1.1650031120.1.0.1650031120.0",
+                "path": "/",
+                "domain": ".basic-fit.com",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1713103120,
+                "sameSite": "None"
+            },
+            {
+                "name": "_ga",
+                "value": "GA1.1.337361856.1650031121",
+                "path": "/",
+                "domain": ".basic-fit.com",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1713103120,
+                "sameSite": "None"
+            },
+            {
+                "name": "_ga_NF41CTP09F",
+                "value": "GS1.1.1650031120.1.0.1650031120.0",
+                "path": "/",
+                "domain": ".basic-fit.com",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1713103120,
+                "sameSite": "None"
+            },
+            {
+                "name": "gtm-sq-pageview",
+                "value": "1",
+                "path": "/",
+                "domain": "www.basic-fit.com",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1650032920,
+                "sameSite": "None"
+            },
+            {
+                "name": "gtm-sq-timestamp",
+                "value": "1650031150998",
+                "path": "/",
+                "domain": "www.basic-fit.com",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1650032920,
+                "sameSite": "None"
+            },
+            {
+                "name": "tv_spot_tracker",
+                "value": "true",
+                "path": "/",
+                "domain": "www.basic-fit.com",
+                "secure": false,
+                "httpOnly": false,
+                "sameSite": "None"
+            }
+        ]
+    ],
+    "https://barkers.ie/": [
+        [
+            {
+                "name": "wishlist_user_id",
+                "value": "16500311229265",
+                "path": "/",
+                "domain": "barkers.ie",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1807711124,
+                "sameSite": "None"
+            },
+            {
+                "name": "CookieConsent",
+                "value": "{stamp:%27-1%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:1%2Cutc:1650031128965%2Cregion:%27CH%27}",
+                "path": "/",
+                "domain": "barkers.ie",
+                "secure": true,
+                "httpOnly": false,
+                "expiry": 1652623128,
+                "sameSite": "None"
+            }
+        ]
+    ],
+    "https://www.nybooks.com/": [
+        [
+            {
+                "name": "nyrb_inst_sub",
+                "value": "denied",
+                "path": "/",
+                "domain": "www.nybooks.com",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1650034732,
+                "sameSite": "None"
+            },
+            {
+                "name": "_gcl_au",
+                "value": "1.1.805503165.1650031133",
+                "path": "/",
+                "domain": ".nybooks.com",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1657807133,
+                "sameSite": "None"
+            },
+            {
+                "name": "CookieConsent",
+                "value": "{stamp:%27-1%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:1%2Cutc:1650031133352%2Cregion:%27CH%27}",
+                "path": "/",
+                "domain": "www.nybooks.com",
+                "secure": true,
+                "httpOnly": false,
+                "expiry": 1652623133,
+                "sameSite": "None"
+            }
+        ]
+    ],
+    "https://www.ericsson.com/en": [
+        [
+            {
+                "name": "AKA_A2",
+                "value": "A",
+                "path": "/",
+                "domain": ".ericsson.com",
+                "secure": true,
+                "httpOnly": true,
+                "expiry": 1650034737,
+                "sameSite": "None"
+            },
+            {
+                "name": "ak_bmsc",
+                "value": "887D2626303AF768AF3C8432A8359B74~000000000000000000000000000000~YAAQf1JDUK9VqCOAAQAAhhKFLQ/Xa10xwUcd9WOMmeOfsxuLiPeeSfdjMm0KV4x+S2t5Bl1IqVtv+ggqcQfPBDKzS73g1JvSOGnwBOxzIdqxK4DFlqgR3Rij/1D6dVmbvFi3oDBdR7wQZJc91/4SISJiyLjDT+AELsP3rjHvZ0oU+RfQkyJzvvd2eT8IyHtd321JTQ7G5q7n0VqOEMqepFheLOpbOq7hdRVVT3pj8cRWIpkv9G5zORVcrg0IoJ6vsY79+8tyAilf3g0ox95q/aUHm5LMlnstA21wYFyDwg9uF2a0019yzJawyqo9vBmYw+5rOJUj4EeVLDiN1n4r+Ar8fWnx6YDkCUZclxGGJoxTCDDcvWHWHX0Zy6+exeFxcys29qHgwYE8sdA0Vw==",
+                "path": "/",
+                "domain": ".ericsson.com",
+                "secure": false,
+                "httpOnly": true,
+                "expiry": 1650038337,
+                "sameSite": "None"
+            },
+            {
+                "name": "ai_user",
+                "value": "Pf/NQ|2022-04-15T13:58:59.154Z",
+                "path": "/",
+                "domain": "www.ericsson.com",
+                "secure": true,
+                "httpOnly": false,
+                "expiry": 1681567139,
+                "sameSite": "None"
+            }
+        ]
+    ],
+    "https://www.ferienhaus-degriet-greetsiel.de/": [
+        []
+    ],
+    "http://www.bvpacodearcos.pt/v3/index.php": [
+        [
+            {
+                "name": "df48505e21808fbb5028b9453e8c24be",
+                "value": "v2b07s8tfh91224udjkvqthvk2",
+                "path": "/",
+                "domain": "www.bvpacodearcos.pt",
+                "secure": false,
+                "httpOnly": false,
+                "sameSite": "None"
+            },
+            {
+                "name": "ja_barite_tpl",
+                "value": "ja_barite",
+                "path": "/",
+                "domain": "www.bvpacodearcos.pt",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1680703146,
+                "sameSite": "None"
+            }
+        ]
+    ],
+    "https://www.codeguard.com/": [
+        [
+            {
+                "name": "AWSELB",
+                "value": "556D8B36AD381975413647BABA37A58DDAA4DAE1B331C2FEC66FA1A823D447844624BE54C22BB8D4178CF988D35981DFC8C2ED89BCFF4B47D9CD8A5150ABD44F4C777D35",
+                "path": "/",
+                "domain": "www.codeguard.com",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1650031454,
+                "sameSite": "None"
+            },
+            {
+                "name": "AWSELBCORS",
+                "value": "556D8B36AD381975413647BABA37A58DDAA4DAE1B331C2FEC66FA1A823D447844624BE54C22BB8D4178CF988D35981DFC8C2ED89BCFF4B47D9CD8A5150ABD44F4C777D35",
+                "path": "/",
+                "domain": "www.codeguard.com",
+                "secure": true,
+                "httpOnly": false,
+                "expiry": 1650031454,
+                "sameSite": "None"
+            }
+        ]
+    ],
+    "https://homeenergysavings.pepco.com/": [
+        [
+            {
+                "name": "SSESS988246302e1fe5608cfdc2d22f6519f7",
+                "value": "0yg6_0AVvRNmHncnKguz8rArnnEsRjRqtTTQYJulSLw",
+                "path": "/",
+                "domain": ".homeenergysavings.pepco.com",
+                "secure": true,
+                "httpOnly": true,
+                "sameSite": "None"
+            }
+        ]
+    ],
+    "https://www.immobiliarenicolosi.com/": [
+        []
+    ],
+    "https://www.portaventuraworld.com/": [
+        [
+            {
+                "name": "optimizelyEndUserId",
+                "value": "oeu1650031170952r0.8170653884037451",
+                "path": "/",
+                "domain": ".portaventuraworld.com",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1665583170,
+                "sameSite": "None"
+            }
+        ]
+    ],
+    "https://www.tecnavia.com/eedition/": [
+        [
+            {
+                "name": "PHPSESSID",
+                "value": "138sjqdirv6sun0npin5am8bb0",
+                "path": "/",
+                "domain": "www.tecnavia.com",
+                "secure": false,
+                "httpOnly": false,
+                "sameSite": "None"
+            }
+        ]
+    ],
+    "https://www.deelstrajansen.nl/": [
+        []
+    ],
+    "https://www.kino.dk/": [
+        [
+            {
+                "name": "has_js",
+                "value": "1",
+                "path": "/",
+                "domain": "www.kino.dk",
+                "secure": false,
+                "httpOnly": false,
+                "sameSite": "None"
+            },
+            {
+                "name": "newsletter_popup",
+                "value": "popup_shown",
+                "path": "/",
+                "domain": "www.kino.dk",
+                "secure": false,
+                "httpOnly": false,
+                "expiry": 1652623204,
+                "sameSite": "None"
+            }
+        ]
+    ]
+}
