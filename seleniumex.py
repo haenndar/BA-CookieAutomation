@@ -56,7 +56,7 @@ def process_pages(driver):
     # iterate over url and cookiestore, append new cookies
     for url, cookie_storage in tracking_dict.items():
         pos = list(tracking_dict).index(url) + 1
-        cookie_storage.append(get_cookies(driver, url, pos))
+        cookie_storage.extend(get_cookies(driver, url, pos))
 
     # store dict to file
     timeString = time.strftime("%Y-%m-%d_%H-%M-%S")
