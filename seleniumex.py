@@ -30,8 +30,8 @@ def save_cookies(driver, link, filename):
     cookieCount = cookieCount + len(myCookies)
 
     # print the currently viewed page 
-    print(str(pageCount) + ') ' + driver.title + ' - ' + driver.current_url)
-    print(str(len(myCookies)) + ' Cookies stored\n')
+    print(f"{pageCount}) {driver.title} - {driver.current_url}")
+    print(f"{len(myCookies)} Cookies stored\n")
 
     # append cookies to current json
     with open(filename, 'r') as json_file:
@@ -46,7 +46,7 @@ def save_cookies(driver, link, filename):
     with open(filename, 'w') as fp:
         json.dump(data, fp, indent=4)
 
-#####################################################################################################
+##############################################################################
 
 # Initial load of the browser
 driver = webdriver.Firefox()
@@ -54,7 +54,7 @@ driver.delete_all_cookies()
 
 # create json file for output
 timestr = time.strftime("%Y-%m-%d_%H-%M-%S")
-filename = 'cookies_' + timestr + '.json'
+filename = f"cookies_{timestr}.json"
 open(filename, 'w')
 
 # Install Extension PrivacyBadger
@@ -65,6 +65,6 @@ with open('cookiebot_links.txt') as links:
     for link in links:
         save_cookies(driver, link, filename)
 
-print('Total Cookies: ' + str(cookieCount))
+print(f"Total Cookies: {cookieCount}")
 
 driver.quit()
