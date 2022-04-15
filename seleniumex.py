@@ -32,39 +32,44 @@ def save_tracking_dict(data, file_out):
         json.dump(data, out, indent=4)
 
 
-# Get cookies
+# Read cookies
 def get_cookies(driver, link, position):
     # call website
     driver.get(link)
 
-    # sleep for 2 seconds to allow storing cookies
+    # sleep for 2 seconds to allow page to load 
     time.sleep(2)
 
     # read cookies
     my_cookies = driver.get_cookies()
 
-    # print the currently viewed page
+    # print the currently viewed page to console
     print(f"{position}) {driver.title} - {driver.current_url}")
 
     return my_cookies
+
+
+# store dict to file
+def write_output(tracking_dict):
+    timeString = time.strftime("%Y-%m-%d_%H-%M-%S")
+    save_tracking_dict(tracking_dict, f"cookies_{timeString}.json")
+
+    cookies_per_page = {url: len(cookies) for url, cookies in tracking_dict.items()}
+    total_cookies = sum(cookies_per_page.values())
+    print(f"Timestamp: {timeString}")
+    print(f"Total Cookies: {total_cookies}")
 
 
 def process_pages(driver):
     # load dict with URLs and empty lists for cookie storage
     tracking_dict = create_tracking_dict('cookiebot_links.txt')
 
-    # iterate over url and cookiestore, append new cookies
+    # iterate over url and cookie_storage, append new cookies
     for url, cookie_storage in tracking_dict.items():
         pos = list(tracking_dict).index(url) + 1
         cookie_storage.extend(get_cookies(driver, url, pos))
 
-    # store dict to file
-    timeString = time.strftime("%Y-%m-%d_%H-%M-%S")
-    save_tracking_dict(tracking_dict, f"cookies_{timeString}.json")
-
-    cookies_per_page = {url: len(cookies) for url, cookies in tracking_dict.items()}
-    total_cookies = sum(cookies_per_page.values())
-    print(f"Total Cookies: {total_cookies}")
+    write_output(tracking_dict)
 
 
 if __name__ == '__main__':
@@ -74,6 +79,10 @@ if __name__ == '__main__':
 
     # Install Extension PrivacyBadger
     install_addon(driver, '/Users/Gandalario/Downloads/BA-CookieAutomation-main/privacy_badger-2021.11.23.1-an+fx.xpi',
+                  temporary=True)
+
+    # Install Extension ConsentOMatic
+    install_addon(driver, '/Users/Gandalario/Downloads/BA-CookieAutomation-main/consent_o_matic-1.0.0-an+fx.xpi',
                   temporary=True)
 
     # run main processing function
