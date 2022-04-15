@@ -2,70 +2,82 @@ import time
 import json
 from selenium import webdriver
 
-pageCount = 0
-cookieCount = 0
 
-def install_addon(self, path, temporary=None):
-    payload = {"path": path}
+def install_addon(driver, path, temporary=None):
+    payload = {
+        "path": path
+    }
     if temporary:
         payload["temporary"] = temporary
-    return self.execute("INSTALL_ADDON", payload)["value"]
 
-def save_cookies(driver, link, filename):
-    global pageCount
-    global cookieCount
+    _ = driver.execute("INSTALL_ADDON", payload)["value"]
 
-    #call website
+    return
+
+
+# create object for tracking URLs and cookie results
+def create_tracking_dict(url_file):
+    # list of URLs
+    with open(url_file, 'r') as file:
+        urls = file.read().splitlines()
+
+    tracking_dict = {url: [] for url in urls}
+
+    return tracking_dict
+
+
+# write to output file
+def save_tracking_dict(data, file_out):
+    with open(file_out, 'w') as out:
+        json.dump(data, out, indent=4)
+
+
+# Get cookies
+def get_cookies(driver, link, position):
+    # call website
     driver.get(link)
-    
+
     # sleep for 2 seconds to allow storing cookies
     time.sleep(2)
 
     # read cookies
-    myCookies = driver.get_cookies()
-    data = myCookies
-    
-    # increase counters
-    pageCount = pageCount + 1
-    cookieCount = cookieCount + len(myCookies)
+    my_cookies = driver.get_cookies()
 
-    # print the currently viewed page 
-    print(f"{pageCount}) {driver.title} - {driver.current_url}")
-    print(f"{len(myCookies)} Cookies stored\n")
+    # print the currently viewed page
+    print(f"{position}) {driver.title} - {driver.current_url}")
 
-    # append cookies to current json
-    with open(filename, 'r') as json_file:
-        try:
-            data = json.load(json_file)
-            temp = data
-            data.append(myCookies)
-        except json.JSONDecodeError:
-            pass
+    return my_cookies
 
-    # write cookies to output file
-    with open(filename, 'w') as fp:
-        json.dump(data, fp, indent=4)
 
-##############################################################################
+def process_pages(driver):
+    # load dict with URLs and empty lists for cookie storage
+    tracking_dict = create_tracking_dict('cookiebot_links.txt')
 
-# Initial load of the browser
-driver = webdriver.Firefox()
-driver.delete_all_cookies()
+    # iterate over url and cookiestore, append new cookies
+    for url, cookie_storage in tracking_dict.items():
+        pos = list(tracking_dict).index(url) + 1
+        cookie_storage.append(get_cookies(driver, url, pos))
 
-# create json file for output
-timestr = time.strftime("%Y-%m-%d_%H-%M-%S")
-filename = f"cookies_{timestr}.json"
-with open(filename, 'w') as fp:
-    json.dump([], fp, indent=4)
+    # store dict to file
+    timeString = time.strftime("%Y-%m-%d_%H-%M-%S")
+    save_tracking_dict(tracking_dict, f"cookies_{timeString}.json")
 
-# Install Extension PrivacyBadger
-driver.install_addon('privacy_badger-2021.11.23.1-an+fx.xpi', temporary=True)
+    cookies_per_page = {url: len(cookies) for url, cookies in tracking_dict.items()}
+    total_cookies = sum(cookies_per_page.values())
+    print(f"Total Cookies: {total_cookies}")
 
-# Call pages and save Cookies as JSON file
-with open('cookiebot_links.txt') as links:
-    for link in links:
-        save_cookies(driver, link, filename)
 
-print(f"Total Cookies: {cookieCount}")
+if __name__ == '__main__':
+    # Initial load of the browser
+    driver = webdriver.Firefox()
+    driver.delete_all_cookies()
 
-driver.quit()
+    # Install Extension PrivacyBadger
+    install_addon(driver, '/Users/Gandalario/Downloads/BA-CookieAutomation-main/privacy_badger-2021.11.23.1-an+fx.xpi',
+                  temporary=True)
+
+    # run main processing function
+    process_pages(driver)
+
+    # cleanup
+    driver.quit()
