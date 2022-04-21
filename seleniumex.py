@@ -38,7 +38,7 @@ def get_cookies(driver, link, position):
     # call website
     driver.get(link)
 
-    # sleep for 3 seconds for page loading & cookie consent
+    # sleep for 3 seconds for page loading & ConsentOMatic
     time.sleep(3)
 
     # read cookies
@@ -89,7 +89,7 @@ if __name__ == '__main__':
     install_addon(driver, path.join(addon_dir, 'consent_o_matic-1.0.0-an+fx.xpi'),
                   temporary=True)
 
-    # go to first tab
+    # go to first tab for ConsentOMatic to work
     driver.switch_to.window(driver.current_window_handle)
 
     # run main processing function
