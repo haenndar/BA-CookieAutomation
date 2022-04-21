@@ -1,5 +1,6 @@
 import time
 import json
+from os import path
 from selenium import webdriver
 
 
@@ -37,8 +38,8 @@ def get_cookies(driver, link, position):
     # call website
     driver.get(link)
 
-    # sleep for 2 seconds to allow page to load 
-    time.sleep(2)
+    # sleep for 3 seconds for page loading & cookie consent
+    time.sleep(3)
 
     # read cookies
     my_cookies = driver.get_cookies()
@@ -54,7 +55,8 @@ def write_output(tracking_dict):
     timeString = time.strftime("%Y-%m-%d_%H-%M-%S")
     save_tracking_dict(tracking_dict, f"cookies_{timeString}.json")
 
-    cookies_per_page = {url: len(cookies) for url, cookies in tracking_dict.items()}
+    cookies_per_page = {url: len(cookies)
+                        for url, cookies in tracking_dict.items()}
     total_cookies = sum(cookies_per_page.values())
     print(f"Timestamp: {timeString}")
     print(f"Total Cookies: {total_cookies}")
@@ -77,13 +79,18 @@ if __name__ == '__main__':
     driver = webdriver.Firefox()
     driver.delete_all_cookies()
 
+    addon_dir = path.join(path.abspath(path.curdir), 'addons')
+
     # Install Extension PrivacyBadger
-    install_addon(driver, '/Users/Gandalario/Downloads/BA-CookieAutomation-main/privacy_badger-2021.11.23.1-an+fx.xpi',
+    install_addon(driver, path.join(addon_dir, 'privacy_badger-2021.11.23.1-an+fx.xpi'),
                   temporary=True)
 
     # Install Extension ConsentOMatic
-    install_addon(driver, '/Users/Gandalario/Downloads/BA-CookieAutomation-main/consent_o_matic-1.0.0-an+fx.xpi',
+    install_addon(driver, path.join(addon_dir, 'consent_o_matic-1.0.0-an+fx.xpi'),
                   temporary=True)
+
+    # go to first tab
+    driver.switch_to.window(driver.current_window_handle)
 
     # run main processing function
     process_pages(driver)
