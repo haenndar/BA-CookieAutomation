@@ -2,6 +2,7 @@ import time
 import json
 from os import path
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 
 
 def install_addon(driver, path, temporary=None):
@@ -74,23 +75,40 @@ def process_pages(driver):
     write_output(tracking_dict)
 
 
-if __name__ == '__main__':
-    # Initial load of the browser
-    driver = webdriver.Firefox()
-    driver.delete_all_cookies()
+def setup_chrome():
+    # chromedriver for M1 Mac
+    chrome = webdriver.Chrome(executable_path=path.join(path.abspath(path.curdir), 'chromedriver'))
+
+    return chrome
+
+
+def setup_firefox():
+    firefox_options = Options()
+    firefox_options.add_argument("-private")
+
+    firefox = webdriver.Firefox(options=firefox_options)
+    firefox.delete_all_cookies()
 
     addon_dir = path.join(path.abspath(path.curdir), 'addons')
 
     # Install Extension PrivacyBadger
-    install_addon(driver, path.join(addon_dir, 'privacy_badger-2021.11.23.1-an+fx.xpi'),
-                  temporary=True)
+    # install_addon(driver, path.join(addon_dir, 'privacy_badger-2021.11.23.1-an+fx.xpi'),
+    #              temporary=True)
 
     # Install Extension ConsentOMatic
-    install_addon(driver, path.join(addon_dir, 'consent_o_matic-1.0.0-an+fx.xpi'),
-                  temporary=True)
+    # install_addon(firefox, path.join(addon_dir, 'consent_o_matic-1.0.0-an+fx.xpi'),
+    #              temporary=True)
 
     # go to first tab for ConsentOMatic to work
-    driver.switch_to.window(driver.current_window_handle)
+    firefox.switch_to.window(firefox.current_window_handle)
+
+    return firefox
+
+
+if __name__ == '__main__':
+    # Initial load of the browser
+    # driver = setup_firefox()
+    driver = setup_chrome()
 
     # run main processing function
     process_pages(driver)
