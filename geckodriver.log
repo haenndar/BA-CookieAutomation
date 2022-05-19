@@ -1,0 +1,119 @@
+1652520479888	geckodriver	INFO	Listening on 127.0.0.1:65162
+1652520480407	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-private" "--remote-debugging-port" "65163" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p6/_p597_w97m132lqd1vsfp6nw0000gn/T/rust_mozprofileev7IFE"
+2022-05-14 11:28:00.776 plugin-container[69597:4134527] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-14 11:28:00.776 plugin-container[69597:4134527] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-14 11:28:00.780 plugin-container[69597:4134527] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-14 11:28:00.780 plugin-container[69597:4134527] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-14 11:28:00.781 plugin-container[69597:4134550] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-14 11:28:00.781 plugin-container[69597:4134550] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652520480784	Marionette	INFO	Marionette enabled
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p6/_p597_w97m132lqd1vsfp6nw0000gn/T/rust_mozprofileev7IFE/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:65163/devtools/browser/16770b2d-6097-4aa3-9165-cba72393c0d8
+1652520481644	Marionette	INFO	Listening on port 65174
+Read port: 65174
+1652520481669	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652520514890	geckodriver	INFO	Listening on 127.0.0.1:65203
+1652520514910	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-private" "--remote-debugging-port" "65204" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p6/_p597_w97m132lqd1vsfp6nw0000gn/T/rust_mozprofileh5B6mU"
+2022-05-14 11:28:35.158 plugin-container[69617:4135087] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-14 11:28:35.159 plugin-container[69617:4135087] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-14 11:28:35.161 plugin-container[69617:4135087] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-14 11:28:35.161 plugin-container[69617:4135087] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-14 11:28:35.161 plugin-container[69617:4135092] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-14 11:28:35.161 plugin-container[69617:4135092] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1652520515163	Marionette	INFO	Marionette enabled
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p6/_p597_w97m132lqd1vsfp6nw0000gn/T/rust_mozprofileh5B6mU/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:65204/devtools/browser/11c6e5fa-a7d3-415e-ab9f-6bc110714d04
+1652520515985	Marionette	INFO	Listening on port 65214
+Read port: 65214
+1652520516062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.stadtwerke-bielefeld.de/typo3temp/assets/compressed/merged-6a5ea98ea9e7664b9d8c28c78ca7a957-19fb6010fba3cf0d23ac8fd5433cb436.1652258876.js, line 951: TypeError: userAgent.match(...) is null
+JavaScript error: https://consent.cookiebot.com/uc.js, line 1: SecurityError: Permission denied to access property "pathname" on cross-origin object
+JavaScript error: https://consent.cookiebot.com/uc.js, line 1: SecurityError: Permission denied to access property "pathname" on cross-origin object
+JavaScript error: https://consent.cookiebot.com/uc.js, line 1: TypeError: window.CookieConsent is undefined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://consent.cookiebot.com/uc.js, line 1: TypeError: window.CookieConsent is undefined
+JavaScript error: https://consent.cookiebot.com/uc.js, line 1: TypeError: window.CookieConsent is undefined
+JavaScript error: https://consent.cookiebot.com/uc.js, line 1: TypeError: window.CookieConsent is undefined
+JavaScript error: https://www.bai.at/wp-content/plugins/mwd-animations/js/mwd-animations.js?ver=1.0.0, line 186: ReferenceError: jQuery is not defined
+JavaScript warning: https://www.bai.at/wp-content/cache/min/1/377dcaf08eb96209e696f3ca1a8bdec5.js, line 258: unreachable code after return statement
+JavaScript warning: https://www.bai.at/wp-content/cache/min/1/377dcaf08eb96209e696f3ca1a8bdec5.js, line 271: unreachable code after return statement
+JavaScript error: moz-extension://2ac3f965-027a-40a1-b028-c817c10b6ba5/GDPRConfig.js, line 1: SyntaxError: redeclaration of let GDPRConfig
+1652520554373	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://www.basic-fit.com/, line 100: SyntaxError: missing ) after argument list
+1652520569861	Marionette	INFO	Stopped listening on port 65214
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652520572889	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1652520789485	geckodriver	INFO	Listening on 127.0.0.1:65507
+1652520790011	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-private" "--remote-debugging-port" "65508" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/p6/_p597_w97m132lqd1vsfp6nw0000gn/T/rust_mozprofileELKCpC"
+1652520790350	Marionette	INFO	Marionette enabled
+2022-05-14 11:33:10.374 plugin-container[69693:4138064] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-14 11:33:10.375 plugin-container[69693:4138064] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-14 11:33:10.379 plugin-container[69693:4138064] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-14 11:33:10.379 plugin-container[69693:4138064] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-05-14 11:33:10.379 plugin-container[69693:4138062] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-05-14 11:33:10.379 plugin-container[69693:4138062] nil host used in call to allowsAnyHTTPSCertificateForHost:
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/p6/_p597_w97m132lqd1vsfp6nw0000gn/T/rust_mozprofileELKCpC/search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:65508/devtools/browser/b32cf06d-5d45-4a31-9eb4-f1d3cdce5d5c
+1652520791136	Marionette	INFO	Listening on port 65519
+Read port: 65519
+1652520791161	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.stadtwerke-bielefeld.de/typo3temp/assets/compressed/merged-6a5ea98ea9e7664b9d8c28c78ca7a957-19fb6010fba3cf0d23ac8fd5433cb436.1652258876.js, line 951: TypeError: userAgent.match(...) is null
+JavaScript error: https://consent.cookiebot.com/uc.js, line 1: SecurityError: Permission denied to access property "pathname" on cross-origin object
+JavaScript error: https://consent.cookiebot.com/uc.js, line 1: SecurityError: Permission denied to access property "pathname" on cross-origin object
+JavaScript error: https://consent.cookiebot.com/uc.js, line 1: TypeError: window.CookieConsent is undefined
+JavaScript error: https://consent.cookiebot.com/uc.js, line 1: TypeError: window.CookieConsent is undefined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://consent.cookiebot.com/uc.js, line 1: TypeError: window.CookieConsent is undefined
+JavaScript error: https://consent.cookiebot.com/uc.js, line 1: TypeError: window.CookieConsent is undefined
+JavaScript error: https://www.bai.at/wp-content/plugins/mwd-animations/js/mwd-animations.js?ver=1.0.0, line 186: ReferenceError: jQuery is not defined
+JavaScript warning: https://www.bai.at/wp-content/cache/min/1/377dcaf08eb96209e696f3ca1a8bdec5.js, line 258: unreachable code after return statement
+JavaScript warning: https://www.bai.at/wp-content/cache/min/1/377dcaf08eb96209e696f3ca1a8bdec5.js, line 271: unreachable code after return statement
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://b2nekretnine.hr/, line 1: ReferenceError: pagespeed is not defined
+JavaScript error: https://www.basic-fit.com/, line 100: SyntaxError: missing ) after argument list
+JavaScript error: https://www.bvpacodearcos.pt/v3/index.php, line 32: ReferenceError: FB is not defined
+1652520863911	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://www.bvpacodearcos.pt/v3/media/system/js/mootools.js, line 53: TypeError: (intermediate value).getElement is not a function
+JavaScript error: https://consent.cookiebot.com/uc.js, line 1: TypeError: this.log is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.portaventuraworld.com"
+JavaScript warning: https://www.kino.dk/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1652520909046	Marionette	INFO	Stopped listening on port 65519
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652520943752	Marionette	INFO	Stopped listening on port 65174
