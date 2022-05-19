@@ -3,6 +3,8 @@ import json
 from os import path
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options 
+from selenium.webdriver.chrome.service import Service
 
 
 def install_addon(driver, path, temporary=None):
@@ -76,8 +78,14 @@ def process_pages(driver):
 
 
 def setup_chrome():
-    # chromedriver for M1 Mac
-    chrome = webdriver.Chrome(executable_path=path.join(path.abspath(path.curdir), 'chromedriver'))
+    chrome_options = webdriver.ChromeOptions()
+    ser = Service(path.join(path.abspath(path.curdir), 'chromedriver.exe'))
+
+    # Install Extension ConsentOMatic
+    addon_dir = path.join(path.abspath(path.curdir), 'addons')
+    chrome_options.add_extension(path.join(addon_dir, 'Consent-O-Matic-1.0.2.crx'))
+
+    chrome = webdriver.Chrome(service=ser,options=chrome_options)    
 
     return chrome
 
@@ -106,7 +114,8 @@ def setup_firefox():
 
 
 if __name__ == '__main__':
-    # Initial load of the browser
+    # Initial load of the browser (Chrome or Firefox)
+
     # driver = setup_firefox()
     driver = setup_chrome()
 
