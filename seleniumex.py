@@ -85,14 +85,21 @@ def setup_chrome():
     from selenium.webdriver.chrome.options import Options 
 
     chrome_options = webdriver.ChromeOptions()
+    # start Chrome in incognito mode
+    #chrome_options.add_argument('--incognito')
+
     ser = Service(path.join(path.abspath(path.curdir), 'chromedriver.exe'))
 
     addon_dir = path.join(path.abspath(path.curdir), 'addons\Chrome')
 
+    # Install Extension PrivacyBadger
+    chrome_options.add_extension(path.join(addon_dir, 'privacy_badger-chrome.crx'))
+
+    # Install Extension CookieBlock
+    #chrome_options.add_extension(path.join(addon_dir, 'CookieBlock.crx'))
+
     # Install Extension ConsentOMatic
     chrome_options.add_extension(path.join(addon_dir, 'Consent-O-Matic-1.0.2.crx'))
-    # Install Extension CookieBlock
-    chrome_options.add_extension(path.join(addon_dir, 'CookieBlock.crx'))
 
     chrome = webdriver.Chrome(service=ser,options=chrome_options)    
 
@@ -102,6 +109,7 @@ def setup_chrome():
 def setup_firefox():
     from selenium.webdriver.firefox.options import Options
 
+    # start Firefox in private mode
     #firefox_options = Options()
     #firefox_options.add_argument("-private")
     #firefox = webdriver.Firefox(options=firefox_options)
