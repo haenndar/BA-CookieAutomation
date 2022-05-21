@@ -1,0 +1,5649 @@
+{
+    "https://apple.com": [
+        {
+            "name": "geo",
+            "value": "CH",
+            "path": "/",
+            "domain": ".apple.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "at_check",
+            "value": "true",
+            "path": "/",
+            "domain": ".apple.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "as_pcts",
+            "value": "kdOQyTQYvi8J5yB+hlSUdvo::wr8o9kEIMsmyVjD-wlNKsZmPUtBpPBfOlLKq4DPKTyBIdaIHdOZjvZ-KekmU_6tq+D3z0rUjTXEqpU6n",
+            "path": "/",
+            "domain": ".apple.com",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "dssid2",
+            "value": "ae492ff7-7f75-455c-9b2a-554c8d10213e",
+            "path": "/",
+            "domain": ".apple.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1684674059,
+            "sameSite": "None"
+        },
+        {
+            "name": "dssf",
+            "value": "1",
+            "path": "/",
+            "domain": ".apple.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1684674059,
+            "sameSite": "None"
+        },
+        {
+            "name": "as_dc",
+            "value": "ucp1",
+            "path": "/",
+            "domain": ".apple.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653145259,
+            "sameSite": "None"
+        },
+        {
+            "name": "s_fid",
+            "value": "04C37E207C3BEC35-1AA5CBD3B4871406",
+            "path": "/",
+            "domain": ".apple.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653139859,
+            "sameSite": "None"
+        },
+        {
+            "name": "s_cc",
+            "value": "true",
+            "path": "/",
+            "domain": ".apple.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "mk_epub",
+            "value": "%7B%22btuid%22%3A%221tucqfx%22%2C%22prop57%22%3A%22www.us.homepage%22%7D",
+            "path": "/",
+            "domain": ".apple.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "mbox",
+            "value": "session#39546d00938a4a68a774031fe9464308#1653139919|PC#39546d00938a4a68a774031fe9464308.37_0#1653139860",
+            "path": "/",
+            "domain": ".apple.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653139919,
+            "sameSite": "None"
+        }
+    ],
+    "https://youtube.com": [
+        {
+            "name": "CONSENT",
+            "value": "PENDING+654",
+            "path": "/",
+            "domain": ".youtube.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210065,
+            "sameSite": "None"
+        },
+        {
+            "name": "YSC",
+            "value": "xx49YXmc1DU",
+            "path": "/",
+            "domain": ".youtube.com",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "__Secure-YEC",
+            "value": "CgtGUWdqbTB5c0VNayiRxaOUBg%3D%3D",
+            "path": "/",
+            "domain": ".youtube.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687266064,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "PREF",
+            "value": "tz=Europe.Zurich",
+            "path": "/",
+            "domain": ".youtube.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210063,
+            "sameSite": "None"
+        }
+    ],
+    "https://www.google.com": [
+        {
+            "name": "AEC",
+            "value": "AakniGOAj8j61yHdeMU-eWUx8ojiCoXpVDLzoOFc-dq28u-DbYGOanGO2g",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668690070,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        }
+    ],
+    "https://www.blogger.com": [
+        {
+            "name": "NID",
+            "value": "511=WBvUq8asHE6cb6qNgZR-s0PbdfzuJblVIcAc8XN9T2EIFJ_D4y1yvZ39_dYIdzhxreh5cxg1aBBQtsgQj_KKRQ36OYfDXp04nY9qgqGf64DbpV0123PwhgjayC2-g7tm9a1eNg36w3WhWXT9scAL18yha6NpsS14Y-S7lqdM7ZI",
+            "path": "/",
+            "domain": ".blogger.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949273,
+            "sameSite": "None"
+        }
+    ],
+    "https://microsoft.com": [
+        {
+            "name": "akacd_OneRF",
+            "value": "1660914077~rv=98~id=11357a14459980d4ff98278c9ab32e69",
+            "path": "/",
+            "domain": "www.microsoft.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1660914077,
+            "sameSite": "None"
+        },
+        {
+            "name": "ak_bmsc",
+            "value": "4847B99ABEBC003F16AF3E9865F94AB1~000000000000000000000000000000~YAAQziv3wV8SEt2AAQAAjje15g8tWNJ2qlVhmPX2Zp0/da+6rQsp6DhrwN0eNouqHlWdUW8mKSuRarjNg12tfJNH6zGMwYU6xlyKvvsQ5sgn2f1cz+7UQqwz3wQgE1gsju+0edaYs8KXDw+Td/MYiVrmnA9ImfIk7iwz2bycaCrTsX64RL6KvQkH3uOeRqvYdJgf3tz67cFKm23hQw1UdpvJAbcKcRNNERMo3RAUkmSze19Q0ZMp3AYDT2X4uyX3sTdS1uopAdcG2XNQxOWtZB4z4cyfiCSakKth5RaTWvWkwRYpf81C+GV6orLQ7dUYDKbnMJD8U7uSzEkspTndR1+HNpwXxTtWHQ24Wm2fjishi6zjiJoJ3IfFq7z/fobcNh5sw7YjKbiHuwVfn+h2HPtc78QlUma7T2g1gZoBub13owsJwmM=",
+            "path": "/",
+            "domain": ".microsoft.com",
+            "secure": false,
+            "httpOnly": true,
+            "expiry": 1653145274,
+            "sameSite": "None"
+        }
+    ],
+    "https://play.google.com": [
+        {
+            "name": "AEC",
+            "value": "AakniGOAj8j61yHdeMU-eWUx8ojiCoXpVDLzoOFc-dq28u-DbYGOanGO2g",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668690070,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        },
+        {
+            "name": "OTZ",
+            "value": "6513901_48_52_123900_48_436380",
+            "path": "/",
+            "domain": "play.google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        }
+    ],
+    "https://support.google.com": [
+        {
+            "name": "AEC",
+            "value": "AakniGOAj8j61yHdeMU-eWUx8ojiCoXpVDLzoOFc-dq28u-DbYGOanGO2g",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668690070,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        },
+        {
+            "name": "SUPPORT_CONTENT",
+            "value": "637887348858159688-3617502349",
+            "path": "/",
+            "domain": ".support.google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653139883,
+            "sameSite": "None"
+        }
+    ],
+    "https://linkedin.com": [
+        {
+            "name": "JSESSIONID",
+            "value": "ajax:2753129320597075030",
+            "path": "/",
+            "domain": ".www.linkedin.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "lang",
+            "value": "v=2&lang=de-de",
+            "path": "/",
+            "domain": ".linkedin.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "bcookie",
+            "value": "\"v=2&0f90eba8-fc33-43e6-83f2-1f98ce7c6f4a\"",
+            "path": "/",
+            "domain": ".linkedin.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716251941,
+            "sameSite": "None"
+        },
+        {
+            "name": "bscookie",
+            "value": "\"v=1&20220521130129fe5c7aaa-98b7-47d0-88ec-7249a4898c7cAQFNGBf2uO1ip22APJ9OYrWl-TFuJEBr\"",
+            "path": "/",
+            "domain": ".www.linkedin.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1716251941,
+            "sameSite": "None"
+        },
+        {
+            "name": "li_gc",
+            "value": "MTswOzE2NTMxMzgwODk7MjswMjF6VJWVw3sxZmu90wlrW+9ufdWzPwQKgVOLZK/BAaV/wQ==",
+            "path": "/",
+            "domain": ".linkedin.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1715446975,
+            "sameSite": "None"
+        },
+        {
+            "name": "lidc",
+            "value": "\"b=OGST09:s=O:r=O:a=O:p=O:g=2261:u=1:x=1:i=1653138089:t=1653224489:v=2:sig=AQGtvC2erZyH9YI2OHm5-uZCYKzAiL2Z\"",
+            "path": "/",
+            "domain": ".linkedin.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653224489,
+            "sameSite": "None"
+        },
+        {
+            "name": "G_ENABLED_IDPS",
+            "value": "google",
+            "path": "/",
+            "domain": ".www.linkedin.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210088,
+            "sameSite": "None"
+        },
+        {
+            "name": "li_alerts",
+            "value": "e30=",
+            "path": "/",
+            "domain": "www.linkedin.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674089,
+            "sameSite": "None"
+        }
+    ],
+    "https://maps.google.com": [
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        }
+    ],
+    "https://en.wikipedia.org": [
+        {
+            "name": "WMF-Last-Access",
+            "value": "21-May-2022",
+            "path": "/",
+            "domain": "en.wikipedia.org",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1655899200,
+            "sameSite": "None"
+        },
+        {
+            "name": "WMF-Last-Access-Global",
+            "value": "21-May-2022",
+            "path": "/",
+            "domain": ".wikipedia.org",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1655899200,
+            "sameSite": "None"
+        },
+        {
+            "name": "GeoIP",
+            "value": "CH:ZH:Schlieren:47.39:8.45:v4",
+            "path": "/",
+            "domain": ".wikipedia.org",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        }
+    ],
+    "https://wordpress.org": [],
+    "https://docs.google.com": [
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        },
+        {
+            "name": "__Host-GAPS",
+            "value": "1:zOsyGKJu8wn3eIrZG_-BzxEfxaJHBw:yFYO9T7Fxs956tbq",
+            "path": "/",
+            "domain": "accounts.google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1716210107,
+            "sameSite": "None"
+        }
+    ],
+    "https://cloudflare.com": [
+        {
+            "name": "__cf_bm",
+            "value": "PN.k41TwnyePLThXr9Dz9Rk2oj7NenNtvMHhg97a2j0-1653138108-0-AW9GkTDsIQft/df6clIA7+K/eOVILNTe4ueQ6kmymDFaBUEJCKzE4/tHp4G59CAhugCiL5fKtvRcrQLMJy26O2Y=",
+            "path": "/",
+            "domain": ".cloudflare.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1653139908,
+            "sameSite": "None"
+        },
+        {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=1&datestamp=Sat+May+21+2022+15%3A01%3A46+GMT%2B0200+(Mitteleurop%C3%A4ische+Sommerzeit)&version=6.19.0&isIABGlobal=false&hosts=&consentId=614d7b98-4f53-4136-81b1-f9111e1b0c8e&interactionCount=0&landingPath=https%3A%2F%2Fwww.cloudflare.com%2F&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A0",
+            "path": "/",
+            "domain": ".www.cloudflare.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674106,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "__cf_bm",
+            "value": "i7WCzwbeDqs5nRVAZjTkeXLuOTlHhHY2s8FHGyaNCTo-1653138113-0-AZD+rZBL5pKhXGCB0XK9YXmz2WstkSBIl4x7x2gkDpfGDwD9bf2TZplgs0EIjVKrWAbOEnhARRDI7Y3+I+ZG3fa1BK9PbXJJjDwhE8DucHS+0t3vMNUGJdJDUOGh5dhgNeAZraFh5/9qqdqo3q6zPYxvU+bsiDpe4+nE69FmEfho",
+            "path": "/",
+            "domain": ".www.cloudflare.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1653139913,
+            "sameSite": "None"
+        }
+    ],
+    "https://mozilla.org": [],
+    "https://youtu.be": [
+        {
+            "name": "CONSENT",
+            "value": "PENDING+654",
+            "path": "/",
+            "domain": ".youtube.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210065,
+            "sameSite": "None"
+        },
+        {
+            "name": "YSC",
+            "value": "xx49YXmc1DU",
+            "path": "/",
+            "domain": ".youtube.com",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "__Secure-YEC",
+            "value": "CgtGUWdqbTB5c0VNayjGxaOUBg%3D%3D",
+            "path": "/",
+            "domain": ".youtube.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687266064,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "PREF",
+            "value": "tz=Europe.Zurich",
+            "path": "/",
+            "domain": ".youtube.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210116,
+            "sameSite": "None"
+        }
+    ],
+    "https://drive.google.com": [
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        },
+        {
+            "name": "_ga_3WTQFP9ECQ",
+            "value": "GS1.1-2.1653138121.1.0.1653138121.0",
+            "path": "/intl",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210121,
+            "sameSite": "None"
+        },
+        {
+            "name": "_ga",
+            "value": "GA1.1-2.401518581.1653138122",
+            "path": "/intl",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210121,
+            "sameSite": "None"
+        }
+    ],
+    "https://sites.google.com": [
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        },
+        {
+            "name": "__Host-GAPS",
+            "value": "1:fXyaBN7Go-aL_JpNB5ginsFo1ahspg:HFSusitjG8O0B1gH",
+            "path": "/",
+            "domain": "accounts.google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1716210129,
+            "sameSite": "None"
+        }
+    ],
+    "https://googleusercontent.com": [],
+    "https://plus.google.com": [
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        },
+        {
+            "name": "__Host-GAPS",
+            "value": "1:OoxnAHwQGhVnvIyn_BZJM8lf0DY_wQ:TLk88vIB2eR6Ij1A",
+            "path": "/",
+            "domain": "accounts.google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1716210133,
+            "sameSite": "None"
+        }
+    ],
+    "https://accounts.google.com": [
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        },
+        {
+            "name": "__Host-GAPS",
+            "value": "1:jUje_RE_89rOijot3VME94DmB10U0w:t_FUrbGpdWG__FVZ",
+            "path": "/",
+            "domain": "accounts.google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1716210137,
+            "sameSite": "None"
+        }
+    ],
+    "https://whatsapp.com": [],
+    "https://adobe.com": [
+        {
+            "name": "AKA_A2",
+            "value": "A",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1653141742,
+            "sameSite": "None"
+        },
+        {
+            "name": "feds_visitor_id",
+            "value": "ke6Q_5RNvTX9rX8OBnLK7",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655816539,
+            "sameSite": "None"
+        },
+        {
+            "name": "feds_visitor_audience",
+            "value": "%7B%22visitor%22%3A%22ke6Q_5RNvTX9rX8OBnLK7%22%2C%22cohort%22%3Atrue%7D",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655816539,
+            "sameSite": "None"
+        },
+        {
+            "name": "bm_mi",
+            "value": "CD5DF51EFCA2594F65F3A1A7A2E0CD74~YAAQTSv3wWjCf4+AAQAAsja25g9aDdariithTHm30HYs2d57TSQ6+FefJvEJBhDEjRWuzhyreugAN7tTMDBRKnPZjXnbbxsvaG8rGGz8lA1opJWB1X8+UFmsx3eocRze5ut0xE9Us5FJvNg4P52ne5RFxYQGJryVRsLQKe412H+d069d/FGP/uldFchZr8tYS7tV/7OdX8xDy8HrLcZ91nzWvRHIzwDrGWA92VYDmYbhqA9dZ3MNIW4eT6jgI0Q5tYrMAggd30gF0ODcLafczmHB9clIpoys+T7dVJZQSh6g17mH03gCugj7qMqQsBp8V0wHK/wP7+hXuCoKszTAYmrI/WawhTBEPFALgF9bJ4oZWFnYdZJPOMfYpqnDr5ma~1",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653145340,
+            "sameSite": "None"
+        },
+        {
+            "name": "sat_domain",
+            "value": "A",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653138141,
+            "sameSite": "None"
+        },
+        {
+            "name": "s_nr",
+            "value": "1653138140202-New",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674140,
+            "sameSite": "None"
+        },
+        {
+            "name": "fg",
+            "value": "WOUQ5FHXFPN5ALEKGAQFRHQAOI======",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653224540,
+            "sameSite": "None"
+        },
+        {
+            "name": "mbox",
+            "value": "session#0d04bc1c653d4afb8d10737093805d78#1653140001",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653140001,
+            "sameSite": "None"
+        },
+        {
+            "name": "at_check",
+            "value": "true",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "OptanonConsent",
+            "value": "groups=C0001:1,C0002:1,C0003:1,C0004:1",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674140,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "OptanonAlertBoxClosed",
+            "value": "2023-05-21T13:02:20.330Z",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674140,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "OptanonChoice",
+            "value": "1",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674139,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "AMCVS_9E1005A551ED61CA0A490D45%40AdobeOrg",
+            "value": "1",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "AMCV_9E1005A551ED61CA0A490D45%40AdobeOrg",
+            "value": "-2121179033%7CMCMID%7C09204116216646201760404830676830633732%7CMCAID%7CNONE%7CMCOPTOUT-1653145340s%7CNONE%7CvVersion%7C5.3.0",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716296540,
+            "sameSite": "None"
+        },
+        {
+            "name": "bm_sv",
+            "value": "8D5D56DE7794EA824C9F9ECD2DD403DD~YAAQTSv3wWvCf4+AAQAASji25g+j8UMPjQAxhRrf8F5/fXG6ommi40jY6yeS61akmaIzuKOBVIeog1SRuAzkYhG4XFnjJf5ZmQfCXVif8SIBPU74WWK4AA7jnAS28Rclw46+pU3rk8JLqu5gNYZRTd/OfobxgbK51Us3cMVtV3l9xP8H4W7XGuzP6DWN/siRvCEi5uWCRk74k5h0iTzrFPnhlVQspbrTEApvPpDWtnRZWoYu8iEGQWD6nKt/jvI=~1",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653145339,
+            "sameSite": "None"
+        },
+        {
+            "name": "_gcl_au",
+            "value": "1.1.1599993608.1653138141",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1660914140,
+            "sameSite": "None"
+        },
+        {
+            "name": "ak_bmsc",
+            "value": "4490995090AA4CE29D33EABCBEA9846B~000000000000000000000000000000~YAAQTSv3wWzCf4+AAQAAIDu25g8Umxj66fTyXVfkF7Wj/wpeYJFFeyU9vXST/UbtgfRI04deMGdz8/wleJI0846e2FyLW6lnWi56+Iyd/F1vxNGLFFQPAu6BLMNuQrmjGdCPM8LgnWABwVlh9dMebQw5w/SX+OqTnqUGyNkBCZOX8qVeLeBSIOz9yF/c7bvoQfXN8ESKhVZXjNrsIJ05du3thJ4xU9M+pIF9ceKkvG4OHwdvpoIg84YMpJrp5VohGLM0No0YyUOvpjuQ4oDM1wwqyTIAcEy+5hAuh6fqPECJ7mFxrjWxRIIq8YEMlCh+YyQkiuw0ByG0R6/+X0H/7uS1WCa/c9kU1MSp2HNoG+nKZkajaS83SOjdAHPBeKcHZIDlRYuDWqp3HoRSwaNt6L3S3cqCQofJL5Qb97Jw70JwklxlAIKeOkf6zRL4keCHptJvArRbUSGMnTINIWuOuKGZd3/rf4ngCVn+5PSBMn2unyddYHs8WoLNycBa8mHizexqCP7aQc9Hy9WoSYDJyWM494UFkyPa8XsQuQ0yd850w81Fq6pvrdrVdV1Imo+cbHGlA558",
+            "path": "/",
+            "domain": ".adobe.com",
+            "secure": false,
+            "httpOnly": true,
+            "expiry": 1653145339,
+            "sameSite": "None"
+        }
+    ],
+    "https://europa.eu": [
+        {
+            "name": "cck1",
+            "value": "%7B%22cm%22%3Afalse%2C%22all1st%22%3Afalse%2C%22closed%22%3Afalse%7D",
+            "path": "/",
+            "domain": ".european-union.europa.eu",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1668690145,
+            "sameSite": "None"
+        }
+    ],
+    "https://github.com": [
+        {
+            "name": "_gh_sess",
+            "value": "TrEPXg3mhEyfKMm5IzWl0OrgShRV9q%2B71HN8rlT%2FwMIGKLSg96v%2FHFqfCkxLQNNyn4MZ4vq49uszzQr%2FzZFSfEPtWhNNh9evxtwovbt74a8VjP2eXsy63ttMmxk8WsDJxVMdi4e7qH6M3qpXBhSygTNX3hVIrN0nQ8yn7oCjRitF1lfZVX4o5UwCXDIL0j7xM1aHCA7zrTB0lVM1BZetwfUnpmeDYacC6VRH%2BvGQcE9aslAtcpz6%2Fkvt6vUTMogTjM1h4YBnOfq62lLSXwJfUw%3D%3D--ojjGpzZw6KzTJnbW--rxC6IRjY%2B6aG5QAsZIBYcg%3D%3D",
+            "path": "/",
+            "domain": "github.com",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "_octo",
+            "value": "GH1.1.1280564157.1653138150",
+            "path": "/",
+            "domain": ".github.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674150,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "logged_in",
+            "value": "no",
+            "path": "/",
+            "domain": ".github.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1684674150,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "tz",
+            "value": "Europe%2FZurich",
+            "path": "/",
+            "domain": ".github.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "Lax"
+        }
+    ],
+    "https://es.wikipedia.org": [
+        {
+            "name": "WMF-Last-Access-Global",
+            "value": "21-May-2022",
+            "path": "/",
+            "domain": ".wikipedia.org",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1655899200,
+            "sameSite": "None"
+        },
+        {
+            "name": "GeoIP",
+            "value": "CH:ZH:Schlieren:47.39:8.45:v4",
+            "path": "/",
+            "domain": ".wikipedia.org",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "WMF-Last-Access",
+            "value": "21-May-2022",
+            "path": "/",
+            "domain": "es.wikipedia.org",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1655899200,
+            "sameSite": "None"
+        }
+    ],
+    "https://vk.com": [
+        {
+            "name": "remixlang",
+            "value": "6",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684766403,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixstid",
+            "value": "181039642_k1XnHl6gagvbxZWyX7w5iIynRE1EWFuzrFqmk9MnH6H",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684385306,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixbdr",
+            "value": "1",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653224557,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixua",
+            "value": "41%7C-1%7C310%7C2436347120",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684420159,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixlgck",
+            "value": "cd58ebc1505dec1d0e",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1684185630,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixflash",
+            "value": "0.0.0",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1655730155,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixscreen_width",
+            "value": "2560",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674155,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixscreen_height",
+            "value": "1440",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674155,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixscreen_dpr",
+            "value": "1",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674155,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixscreen_depth",
+            "value": "24",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674155,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixscreen_orient",
+            "value": "1",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653742955,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixscreen_winzoom",
+            "value": "1",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674155,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixgp",
+            "value": "498e3a2574bb92c153b78afa418b45ad",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653742955,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixdt",
+            "value": "-3600",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674155,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixdark_color_scheme",
+            "value": "1",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674155,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixcolor_scheme_mode",
+            "value": "auto",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674155,
+            "sameSite": "None"
+        },
+        {
+            "name": "tmr_lvid",
+            "value": "21168b8c07184d5b5df56357ff28df0b",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1681909355,
+            "sameSite": "None"
+        },
+        {
+            "name": "tmr_lvidTS",
+            "value": "1653138155739",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1681909355,
+            "sameSite": "None"
+        },
+        {
+            "name": "tmr_reqNum",
+            "value": "1",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1681909355,
+            "sameSite": "None"
+        },
+        {
+            "name": "remixsts",
+            "value": "%7B%22data%22%3A%5B%5B1653138155%2C%22browser_features%22%2C%22current_scheme%3A2/is_auto_schemes_supported%3A1/is_schemes_supported%3A1%22%5D%2C%5B1653138155%2C%22web_dark_theme%22%2C%22auto%22%2C%22vkcom_dark%22%2C1%5D%2C%5B1653138156%2C%22counters_check%22%2C1%5D%5D%2C%22uniqueId%22%3A556929559%7D",
+            "path": "/",
+            "domain": ".vk.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653139020,
+            "sameSite": "None"
+        }
+    ],
+    "https://istockphoto.com": [
+        {
+            "name": "giu",
+            "value": "nv=1&lv=2022-05-21T13%3A02%3A41Z",
+            "path": "/",
+            "domain": "www.istockphoto.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 2284290161,
+            "sameSite": "None"
+        },
+        {
+            "name": "vis",
+            "value": "vid=ed2ef437-7f37-41e4-8ef8-0771d57ba4da",
+            "path": "/",
+            "domain": ".istockphoto.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 2284290161,
+            "sameSite": "None"
+        },
+        {
+            "name": "uac",
+            "value": "t=2pwgcIz9951mWd0aXteNcMJUeVEXr20fAFQZ%2F6wbYAmeUITOAd22nlHGt5X4FMVgG7g9EKJToHZPzIHBGey74%2FFqbpX%2FrD9TT5d8GJnJTg3FoqnVT2Y3JaiQNYGz5oUHFIu67ASmLfzJqi4jGIye3t6cnJIQrG8GGfXBOVsAYr0%3D%7C77u%2FdmNmZnBCZFYrOW1TTVZnUmxZMGYKNDQxCgpjblJxRlE9PQplbnRxRlE9PQowCgoKMAo0NDEKCjQ0MQowCmVkMmVmNDM3LTdmMzctNDFlNC04ZWY4LTA3NzFkNTdiYTRkYQoK%7C3%7C2%7C1&d",
+            "path": "/",
+            "domain": "www.istockphoto.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 2284290161,
+            "sameSite": "None"
+        },
+        {
+            "name": "unisess",
+            "value": "aThjZysvVllUbEdpaXJXVGIzRTNPaTVtS0k1QjRRSVF0UlpZTnFhL1RkZ0pYMExYUU81NlVWZGI1VGFWVytFNFRiT0RNQUFhR3FmN2dQa1dLTGVxbkE9PS0tSHBuWWl2VEI3NlZtUWJqaElsVURPdz09--7c64be1d7342fc8820895e60e83fb40ba920fcec",
+            "path": "/",
+            "domain": "www.istockphoto.com",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "csrf",
+            "value": "t=jCdV%2BTOW9uQ01ipKBehqwZgnPeG2ddVOAhRuwoB8nUM%3D",
+            "path": "/",
+            "domain": "www.istockphoto.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 2284290162,
+            "sameSite": "None"
+        },
+        {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=1&datestamp=Sat+May+21+2022+15%3A02%3A40+GMT%2B0200+(Mitteleurop%C3%A4ische+Sommerzeit)&version=6.26.0&isIABGlobal=false&hosts=&consentId=ef9be4ab-5c5a-479c-a4aa-c4adc5986f20&interactionCount=0&landingPath=https%3A%2F%2Fwww.istockphoto.com%2Fde&groups=C0001%3A1%2CC0004%3A0",
+            "path": "/",
+            "domain": ".www.istockphoto.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674160,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "_ga_Y8EH5J3SQE",
+            "value": "GS1.1.1653138160.1.0.1653138160.60",
+            "path": "/",
+            "domain": ".istockphoto.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210161,
+            "sameSite": "None"
+        },
+        {
+            "name": "_ga",
+            "value": "GA1.1.533565511.1653138161",
+            "path": "/",
+            "domain": ".istockphoto.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210161,
+            "sameSite": "None"
+        },
+        {
+            "name": "IR_gbd",
+            "value": "istockphoto.com",
+            "path": "/",
+            "domain": ".istockphoto.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "IR_4205",
+            "value": "1653138162064%7C0%7C1653138162064%7C%7C",
+            "path": "/",
+            "domain": ".istockphoto.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        }
+    ],
+    "https://uol.com.br": [
+        {
+            "name": "AdilligoT",
+            "value": "1",
+            "path": "/",
+            "domain": "www.uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653742964,
+            "sameSite": "None"
+        },
+        {
+            "name": "tt_c_vmt",
+            "value": "1653138165",
+            "path": "/",
+            "domain": "www.uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653139965,
+            "sameSite": "None"
+        },
+        {
+            "name": "tt_c_c",
+            "value": "direct",
+            "path": "/",
+            "domain": "www.uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653139965,
+            "sameSite": "None"
+        },
+        {
+            "name": "tt_c_s",
+            "value": "direct",
+            "path": "/",
+            "domain": "www.uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653139965,
+            "sameSite": "None"
+        },
+        {
+            "name": "tt_c_m",
+            "value": "direct",
+            "path": "/",
+            "domain": "www.uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653139965,
+            "sameSite": "None"
+        },
+        {
+            "name": "_ttuu.s",
+            "value": "1653138165331",
+            "path": "/",
+            "domain": "www.uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1715346165,
+            "sameSite": "None"
+        },
+        {
+            "name": "_grandabcPlayerLoad",
+            "value": "B",
+            "path": "/",
+            "domain": ".www.uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1659193200,
+            "sameSite": "None"
+        },
+        {
+            "name": "__tbc",
+            "value": "%7Bkpex%7DtQNzQuccvprZcmFs0_DGlajG6_yroP5auA03-SpnGSVii14KxuceDQ6g1cTJxQqX",
+            "path": "/",
+            "domain": ".uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210165,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "cX_P",
+            "value": "l3fvs3yjburvjw62",
+            "path": "/",
+            "domain": ".uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210165,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "__pat",
+            "value": "10800000",
+            "path": "/",
+            "domain": ".uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730165,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "__pvi",
+            "value": "%7B%22id%22%3A%22v-l3fvs3yk881fqz7s%22%2C%22domain%22%3A%22.uol.com.br%22%2C%22time%22%3A1653138165534%7D",
+            "path": "/",
+            "domain": ".uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653224565,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "xbc",
+            "value": "%7Bkpex%7DiRsECokBLl2pBMcDJUZbR6csmh5gXXMJ6Kh0jOKhUfRI__Z3e3EX2ARWG-x4R-kBNaThT7HHeiU1sq4uGAY8WGIf1Z_MdxV8QZps9NFiwrCHN5vSxg6Pq6BuF4vyup1nRSINIB_AFuL0qYDluwACcByHngKFA4WoVSoqSv9apwWuJNCtaQAltYn5bDQesX5rO46ZUCwJG9YouiDSpLQJ0C2nK5XvdlDSbDeY2G-4xqU",
+            "path": "/",
+            "domain": ".uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210165,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "geoloc",
+            "value": "SA%2CBR%2C27%2CS%E3o%20Paulo%2CSP",
+            "path": "/",
+            "domain": ".uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653570167,
+            "sameSite": "None"
+        },
+        {
+            "name": "BTCTL",
+            "value": "75",
+            "path": "/",
+            "domain": ".uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1968670920,
+            "sameSite": "None"
+        },
+        {
+            "name": "lplr_vlm",
+            "value": "1",
+            "path": "/",
+            "domain": "www.uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "lplr_pbr",
+            "value": "1",
+            "path": "/",
+            "domain": "www.uol.com.br",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        }
+    ],
+    "https://facebook.com": [],
+    "https://amazon.com": [
+        {
+            "name": "session-id",
+            "value": "133-4136022-7613564",
+            "path": "/",
+            "domain": ".amazon.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674179,
+            "sameSite": "None"
+        },
+        {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "domain": ".amazon.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674179,
+            "sameSite": "None"
+        },
+        {
+            "name": "i18n-prefs",
+            "value": "USD",
+            "path": "/",
+            "domain": ".amazon.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674179,
+            "sameSite": "None"
+        },
+        {
+            "name": "lc-main",
+            "value": "de_DE",
+            "path": "/",
+            "domain": ".amazon.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674179,
+            "sameSite": "None"
+        },
+        {
+            "name": "sp-cdn",
+            "value": "\"L5Z9:CH\"",
+            "path": "/",
+            "domain": ".amazon.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1684674176,
+            "sameSite": "None"
+        },
+        {
+            "name": "skin",
+            "value": "noskin",
+            "path": "/",
+            "domain": ".amazon.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "csm-hit",
+            "value": "adb:adblk_no&t:1653138177511",
+            "path": "/",
+            "domain": "www.amazon.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1683378177,
+            "sameSite": "None"
+        },
+        {
+            "name": "ubid-main",
+            "value": "132-1583568-9626837",
+            "path": "/",
+            "domain": ".amazon.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674181,
+            "sameSite": "None"
+        },
+        {
+            "name": "session-token",
+            "value": "\"3KC45/Ya/4xAbdh1PJAcdBj2TfrsNZEDkJzEchdMT1sYIPmuGzS+dtMPGnOvgiGjVc0YNWJWlYFbM2JEvyVdBCeQv8iT8Mv0lUU4KxtxFBZfgdHZag/xfyt+a0cwGJKu7IKmtpSx6GWROu0B9EENNe9dh7cYje6NMbr3thBJwatxlmg+6tet2ua/ZX16DjLUTIvxua3fpVrzo1setS1Fyg==\"",
+            "path": "/",
+            "domain": ".amazon.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674180,
+            "sameSite": "None"
+        }
+    ],
+    "https://t.me": [
+        {
+            "name": "stel_ssid",
+            "value": "41d3965bfbb65ef990_663643320781158977",
+            "path": "/",
+            "domain": "telegram.org",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1653178183,
+            "sameSite": "None"
+        }
+    ],
+    "https://bp.blogspot.com": [],
+    "https://feedburner.com": [
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        },
+        {
+            "name": "__Host-GAPS",
+            "value": "1:odhCZRVR7DPhVOm7M1L83QS9xR8Geg:1k3GE9RLekyjKIfv",
+            "path": "/",
+            "domain": "accounts.google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1716210190,
+            "sameSite": "None"
+        }
+    ],
+    "https://vimeo.com": [
+        {
+            "name": "__cf_bm",
+            "value": "7Y1NbGhb85tcIe7ovA.T_yStSILhIQItACpudG5yzck-1653138191-0-Ae2mjU2n7w1ORKiCl+1ocwPJUSLpfopOkovvBCVg6pU8Q5Yjk4BTxWNfVjcE7D/qfNjobPYfl1XyxyNjrA5iFkQ=",
+            "path": "/",
+            "domain": ".vimeo.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1653139991,
+            "sameSite": "None"
+        },
+        {
+            "name": "vuid",
+            "value": "pl1524965186.510331809",
+            "path": "/",
+            "domain": ".vimeo.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1968498189,
+            "sameSite": "None"
+        },
+        {
+            "name": "language",
+            "value": "en",
+            "path": "/",
+            "domain": ".vimeo.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1968498189,
+            "sameSite": "None"
+        },
+        {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=1&datestamp=Sat+May+21+2022+15%3A03%3A10+GMT%2B0200+(Mitteleurop%C3%A4ische+Sommerzeit)&version=6.29.0&isIABGlobal=false&hosts=&landingPath=https%3A%2F%2Fvimeo.com%2F&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A0",
+            "path": "/",
+            "domain": ".vimeo.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674190,
+            "sameSite": "Lax"
+        }
+    ],
+    "https://developers.google.com": [
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        },
+        {
+            "name": "django_language",
+            "value": "de",
+            "path": "/",
+            "domain": "developers.google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1668690197,
+            "sameSite": "None"
+        },
+        {
+            "name": "_ga_devsite",
+            "value": "GA1.3.1294083655.1653138196",
+            "path": "/",
+            "domain": "developers.google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210197,
+            "sameSite": "None"
+        }
+    ],
+    "https://search.google.com": [
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        },
+        {
+            "name": "AEC",
+            "value": "AakniGNWd7YbIEJl1pNar5sMm53sevowxBEDwbL5J5zZ63W3zUqVlDrFdwY",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668690201,
+            "sameSite": "Lax"
+        }
+    ],
+    "https://pt.wikipedia.org": [
+        {
+            "name": "WMF-Last-Access-Global",
+            "value": "21-May-2022",
+            "path": "/",
+            "domain": ".wikipedia.org",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1655899200,
+            "sameSite": "None"
+        },
+        {
+            "name": "GeoIP",
+            "value": "CH:ZH:Schlieren:47.39:8.45:v4",
+            "path": "/",
+            "domain": ".wikipedia.org",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "WMF-Last-Access",
+            "value": "21-May-2022",
+            "path": "/",
+            "domain": "pt.wikipedia.org",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1655899200,
+            "sameSite": "None"
+        }
+    ],
+    "https://theguardian.com": [
+        {
+            "name": "GU_mvt_id",
+            "value": "182804",
+            "path": "/",
+            "domain": ".theguardian.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1660914208,
+            "sameSite": "None"
+        },
+        {
+            "name": "GU_geo_country",
+            "value": "CH",
+            "path": "/",
+            "domain": "www.theguardian.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "bwid",
+            "value": "idFromPV_eCtT0d6e-CtSpzQ3OOIggQ",
+            "path": "/",
+            "domain": ".theguardian.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674206,
+            "sameSite": "None"
+        },
+        {
+            "name": "bwid_withoutSameSiteForIncompatibleClients",
+            "value": "idFromPV_eCtT0d6e-CtSpzQ3OOIggQ",
+            "path": "/",
+            "domain": ".theguardian.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1684674206,
+            "sameSite": "None"
+        },
+        {
+            "name": "vsid",
+            "value": "AYDmtzih",
+            "path": "/",
+            "domain": ".theguardian.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653140006,
+            "sameSite": "None"
+        },
+        {
+            "name": "_sp_v1_uid",
+            "value": "1:219:7fe7019d-557c-4e39-a214-858996aabb11",
+            "path": "/",
+            "domain": "www.theguardian.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1655730206,
+            "sameSite": "None"
+        },
+        {
+            "name": "_sp_v1_data",
+            "value": "2:491746:1653138209:0:1:0:1:0:0:_:-1",
+            "path": "/",
+            "domain": "www.theguardian.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1655730206,
+            "sameSite": "None"
+        },
+        {
+            "name": "_sp_v1_ss",
+            "value": "1:H4sIAAAAAAAAAItWqo5RKimOUbLKK83J0YlRSkVil4AlqmtrlXTgyqKRGXkghkFtLC59OCWUYgEO1mB4eQAAAA%3D%3D",
+            "path": "/",
+            "domain": "www.theguardian.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1655730206,
+            "sameSite": "None"
+        },
+        {
+            "name": "_sp_v1_opt",
+            "value": "1:",
+            "path": "/",
+            "domain": "www.theguardian.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1655730206,
+            "sameSite": "None"
+        },
+        {
+            "name": "_sp_v1_consent",
+            "value": "1!0:-1:-1:-1:-1:-1",
+            "path": "/",
+            "domain": "www.theguardian.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1655730206,
+            "sameSite": "None"
+        },
+        {
+            "name": "_sp_v1_csv",
+            "value": "null",
+            "path": "/",
+            "domain": "www.theguardian.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1655730206,
+            "sameSite": "None"
+        },
+        {
+            "name": "_sp_v1_lt",
+            "value": "1:",
+            "path": "/",
+            "domain": "www.theguardian.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1655730206,
+            "sameSite": "None"
+        },
+        {
+            "name": "consentUUID",
+            "value": "38a265c2-d2d5-4952-aad0-e1ffe6e3671b",
+            "path": "/",
+            "domain": ".theguardian.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674206,
+            "sameSite": "None"
+        }
+    ],
+    "https://gravatar.com": [
+        {
+            "name": "ccpa_applies",
+            "value": "false",
+            "path": "/",
+            "domain": ".de.gravatar.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653224610,
+            "sameSite": "None"
+        },
+        {
+            "name": "country_code",
+            "value": "CH",
+            "path": "/",
+            "domain": "de.gravatar.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653159810,
+            "sameSite": "None"
+        }
+    ],
+    "https://mail.ru": [
+        {
+            "name": "act",
+            "value": "2fecffa30ea644b59eb0624775e72135",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "o",
+            "value": ":465:AQAAAA==.m",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674216,
+            "sameSite": "None"
+        },
+        {
+            "name": "mrcu",
+            "value": "93846288E3285713F2D8FFFFFFFF",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1968498216,
+            "sameSite": "None"
+        },
+        {
+            "name": "p",
+            "value": "/hACAHgX4LQA",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210217,
+            "sameSite": "None"
+        },
+        {
+            "name": "mtrc",
+            "value": "%7B%22mytrackerid%22%3A58519%7D",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653743014,
+            "sameSite": "Strict"
+        },
+        {
+            "name": "tmr_lvid",
+            "value": "8857ae2b7194e4b2504c4fd7655334e6",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1681909414,
+            "sameSite": "None"
+        },
+        {
+            "name": "tmr_lvidTS",
+            "value": "1653138214970",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1681909414,
+            "sameSite": "None"
+        },
+        {
+            "name": "s",
+            "value": "fver=0",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674217,
+            "sameSite": "None"
+        },
+        {
+            "name": "i",
+            "value": "AQAp44hiAQCJDQUCAQA=",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1668690218,
+            "sameSite": "None"
+        },
+        {
+            "name": "__cmpconsents1",
+            "value": "CPZUJnAPZUJnAAfNgBDECQCsAP_AAH_AAAigGatP_X__b3_n-_7___t0eY1f9_7__-0zjhfdt-8N3f_X_L8X_2M7vF36tr4KuR4ku3bBIQdtHOncTUmx6olVrzPsb02cr7NKJ7Pkmnsbe2dYGH9_n93T_ZKZ7______7_3______777gZq0_9f_9vf-f7_v__-3R5jV_3_v__7TOOF9237w3d_9f8vxf_Yzu8Xfq2vgq5HiS7dsEhB20c6dxNSbHqiVWvM-xvTZyvs0ons-Saext7Z1gYf3-f3dP9kpnv______v_f______vvuAAA",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674215,
+            "sameSite": "None"
+        },
+        {
+            "name": "__cmpcvcs1",
+            "value": "__s1186_s837_s950_s1227_s1229_s1232_s1234_s1235_s1242_s1253_s914_s1261_s1265_s945_s917_s1270_s952_s1275_s1276_s1282_s1285_s1287_s214_s121_s25_s56_s50_s1290_s1296_s1299_s312_s1303_s368_s1375_s665_s161_s1377_s1378_s1381_s202_s1382_s731_s1384_s1386_s1388_s1389_s1390_s317_s1391_s1394_s1396_s282_s856_s1372_s393_s1370_s1369_s1364_s36_s1358_s1357_s1351_s1349_s1346_s1343_s1342_s1341_s173_s1340_s1339_s1338_s268_s1334_s1332_s1329_s1328_s1327_s1326_s1324_s1323_s539_s1319_s1311_s519_s568_s1307_s1304_s1218_s174_s730_s196_s1216_s1214_s1213_s431_s1211_s1209_s1205_s628_s1200_s1199_s1197_s1196_s1195_s922_s1191_s1187__",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674215,
+            "sameSite": "None"
+        },
+        {
+            "name": "__cmpcpcs1",
+            "value": "____",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674215,
+            "sameSite": "None"
+        },
+        {
+            "name": "b",
+            "value": "vEoBAGACjisDAQCA4LsTpwEA",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674218,
+            "sameSite": "None"
+        },
+        {
+            "name": "c",
+            "value": "KuOIYgEAAFQLAAAUAAAACQAQ",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674218,
+            "sameSite": "None"
+        },
+        {
+            "name": "_pubcid",
+            "value": "3e123193-6177-48e2-b58e-6ff8bf26a988",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674216,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "tmr_reqNum",
+            "value": "6",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1681909414,
+            "sameSite": "None"
+        },
+        {
+            "name": "VID",
+            "value": "2rACBD2NeoIA00000d1EH4oA:::0-0-0-7a33baf:CAASEOW_KQsflkwZ6ZbLcL_a3ScaYHz2OBzb9RjDk1oNlTjhelvoRTVSUizGioDrdi8J1I2C9mzyUd5AztxWLHczk04rLm7sp2KilZbU23uZ9kf6eptzl8dwBUpccfxTomZgjdrHGPi34ciRrFJttEO5CYAK9g",
+            "path": "/",
+            "domain": ".mail.ru",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1684760619,
+            "sameSite": "None"
+        }
+    ],
+    "https://draft.blogger.com": [
+        {
+            "name": "NID",
+            "value": "511=WBvUq8asHE6cb6qNgZR-s0PbdfzuJblVIcAc8XN9T2EIFJ_D4y1yvZ39_dYIdzhxreh5cxg1aBBQtsgQj_KKRQ36OYfDXp04nY9qgqGf64DbpV0123PwhgjayC2-g7tm9a1eNg36w3WhWXT9scAL18yha6NpsS14Y-S7lqdM7ZI",
+            "path": "/",
+            "domain": ".blogger.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949273,
+            "sameSite": "None"
+        }
+    ],
+    "https://fr.wikipedia.org": [
+        {
+            "name": "WMF-Last-Access-Global",
+            "value": "21-May-2022",
+            "path": "/",
+            "domain": ".wikipedia.org",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1655899200,
+            "sameSite": "None"
+        },
+        {
+            "name": "GeoIP",
+            "value": "CH:ZH:Schlieren:47.39:8.45:v4",
+            "path": "/",
+            "domain": ".wikipedia.org",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "WMF-Last-Access",
+            "value": "21-May-2022",
+            "path": "/",
+            "domain": "fr.wikipedia.org",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1655899200,
+            "sameSite": "None"
+        }
+    ],
+    "https://forbes.com": [
+        {
+            "name": "client_id",
+            "value": "e6d30d200892376b640b100173a78207503",
+            "path": "/",
+            "domain": ".forbes.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716296626,
+            "sameSite": "None"
+        }
+    ],
+    "https://dailymotion.com": [
+        {
+            "name": "v1st",
+            "value": "FF16D29FB9791901C5AA00E730713C0B",
+            "path": "/",
+            "domain": ".dailymotion.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1687352641,
+            "sameSite": "None"
+        },
+        {
+            "name": "dmvk",
+            "value": "6288e3440302f",
+            "path": "/",
+            "domain": ".dailymotion.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "ts",
+            "value": "579693",
+            "path": "/",
+            "domain": ".dailymotion.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1687352641,
+            "sameSite": "None"
+        },
+        {
+            "name": "client_token",
+            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhaWQiOiJmMWEzNjJkMjg4YzFiOTgwOTljNyIsInJvbCI6ImNhbi1tYW5hZ2UtcGFydG5lcnMtcmVwb3J0cyBjYW4tcmVhZC12aWRlby1zdHJlYW1zIGNhbi1zcG9vZi1jb3VudHJ5IGNhbi1hZG9wdC11c2VycyBjYW4tcmVhZC1jbGFpbS1ydWxlcyBjYW4tbWFuYWdlLWNsYWltLXJ1bGVzIGNhbi1tYW5hZ2UtdXNlci1hbmFseXRpY3MgY2FuLXJlYWQtbXktdmlkZW8tc3RyZWFtcyBjYW4tZG93bmxvYWQtbXktdmlkZW9zIGFjdC1hcyBhbGxzY29wZXMgYWNjb3VudC1jcmVhdG9yIGNhbi1yZWFkLWFwcGxpY2F0aW9ucyIsInNjbyI6InJlYWQgd3JpdGUgZGVsZXRlIGVtYWlsIHVzZXJpbmZvIGZlZWQgbWFuYWdlX3ZpZGVvcyBtYW5hZ2VfY29tbWVudHMgbWFuYWdlX3BsYXlsaXN0cyBtYW5hZ2VfdGlsZXMgbWFuYWdlX3N1YnNjcmlwdGlvbnMgbWFuYWdlX2ZyaWVuZHMgbWFuYWdlX2Zhdm9yaXRlcyBtYW5hZ2VfbGlrZXMgbWFuYWdlX2dyb3VwcyBtYW5hZ2VfcmVjb3JkcyBtYW5hZ2Vfc3VidGl0bGVzIG1hbmFnZV9mZWF0dXJlcyBtYW5hZ2VfaGlzdG9yeSBpZnR0dCByZWFkX2luc2lnaHRzIG1hbmFnZV9jbGFpbV9ydWxlcyBkZWxlZ2F0ZV9hY2NvdW50X21hbmFnZW1lbnQgbWFuYWdlX2FuYWx5dGljcyBtYW5hZ2VfcGxheWVyIG1hbmFnZV9wbGF5ZXJzIG1hbmFnZV91c2VyX3NldHRpbmdzIG1hbmFnZV9jb2xsZWN0aW9ucyBtYW5hZ2VfYXBwX2Nvbm5lY3Rpb25zIG1hbmFnZV9hcHBsaWNhdGlvbnMgbWFuYWdlX2RvbWFpbnMiLCJsdG8iOiJjMnQ3ZlFKQ0JVRklSRVVxVVVJcEMwb21NMkFTUWo1amN5WkpBUSIsImFpbiI6MSwiYWRnIjoxLCJpYXQiOjE2NTMxMzgyNDUsImV4cCI6MTY1MzE3MzY2OCwiZG12IjoiMSIsImF0cCI6ImJyb3dzZXIiLCJhZGEiOiJ3d3cuZGFpbHltb3Rpb24uY29tIiwidmlkIjoiRkYxNkQyOUZCOTc5MTkwMUM1QUEwMEU3MzA3MTNDMEIiLCJmdHMiOjU3OTY5MywiY2FkIjoyLCJjeHAiOjIsImNhdSI6Miwia2lkIjoiQUY4NDlERDczQTU4NjNDRDdEOTdEMEJBQjA3MjI0M0IifQ.C3VOqhmpzJBvHe6coRNeQiA_dBbse56aXB1I8qNd-Do",
+            "path": "/",
+            "domain": "www.dailymotion.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653173664,
+            "sameSite": "None"
+        },
+        {
+            "name": "ff",
+            "value": "on",
+            "path": "/",
+            "domain": ".dailymotion.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "lang",
+            "value": "de_DE",
+            "path": "/",
+            "domain": "www.dailymotion.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "usprivacy",
+            "value": "1---",
+            "path": "/",
+            "domain": ".dailymotion.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1686834242,
+            "sameSite": "None"
+        }
+    ],
+    "https://news.google.com": [
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        },
+        {
+            "name": "AEC",
+            "value": "AakniGNWd7YbIEJl1pNar5sMm53sevowxBEDwbL5J5zZ63W3zUqVlDrFdwY",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668690201,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "GN_PREF",
+            "value": "W251bGwsIkNBSVNEQWpJeHFPVUJoRDRzTUdqQVEiXQ__",
+            "path": "/",
+            "domain": "news.google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1668906248,
+            "sameSite": "None"
+        },
+        {
+            "name": "OTZ",
+            "value": "6513904_48_52_123900_48_436380",
+            "path": "/",
+            "domain": "news.google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1655730248,
+            "sameSite": "None"
+        }
+    ],
+    "https://google.es": [
+        {
+            "name": "CONSENT",
+            "value": "PENDING+275",
+            "path": "/",
+            "domain": ".google.es",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210252,
+            "sameSite": "None"
+        },
+        {
+            "name": "AEC",
+            "value": "AakniGO5_sduJzK8wQGkg9Gb2_XefTz_JI7PYekJlrrD10e6HZa2ETWOIQ",
+            "path": "/",
+            "domain": ".google.es",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668690252,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=umFnT7SyRN5HNPCOH52r3Xb9Qdy8WUOMv0PwKZlzvNQ-prQYWPW8oQf2irJh6b_OJCp2IwaTkfEBhTWfigV3ObJYgP1jPAhQ8C1dPbVbnkbdcECqMhvmbBngig025SmlZkGkikjpznxCzVI6kZIUEFQi5d8_mH5pUMG8UMAe2GE",
+            "path": "/",
+            "domain": ".google.es",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324950,
+            "sameSite": "Lax"
+        }
+    ],
+    "https://tools.google.com": [
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        },
+        {
+            "name": "AEC",
+            "value": "AakniGNWd7YbIEJl1pNar5sMm53sevowxBEDwbL5J5zZ63W3zUqVlDrFdwY",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668690201,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "iid",
+            "value": "%7B2893031B-8719-FFE9-16F1-FA37AC7B6A55%7D",
+            "path": "/chrome",
+            "domain": "www.google.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "Lax"
+        }
+    ],
+    "https://dropbox.com": [
+        {
+            "name": "gvc",
+            "value": "MTM1NjgzMTE4MjI1Mzk3MTgyMzU1OTQ2ODQ5Nzg4MTYxMzgxODY2",
+            "path": "/",
+            "domain": "www.dropbox.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1810818260,
+            "sameSite": "None"
+        },
+        {
+            "name": "t",
+            "value": "jQlxuuVAEwLQ838_HA-EJeGy",
+            "path": "/",
+            "domain": ".dropbox.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1747746260,
+            "sameSite": "None"
+        },
+        {
+            "name": "__Host-js_csrf",
+            "value": "jQlxuuVAEwLQ838_HA-EJeGy",
+            "path": "/",
+            "domain": "www.dropbox.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1747746260,
+            "sameSite": "None"
+        },
+        {
+            "name": "__Host-ss",
+            "value": "V64-mYPrjg",
+            "path": "/",
+            "domain": "www.dropbox.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1747746260,
+            "sameSite": "Strict"
+        },
+        {
+            "name": "locale",
+            "value": "de",
+            "path": "/",
+            "domain": ".dropbox.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1810818260,
+            "sameSite": "None"
+        },
+        {
+            "name": "__Host-logged-out-session",
+            "value": "ChBeDLzFYIzwieApo1VP6FYMENbGo5QGGi5BRFh3bDBWbE4zZXY4VHVwckJhc0tkdWNWbUhhdGZNVVowT2h3M24ySjdNWVRR",
+            "path": "/",
+            "domain": "www.dropbox.com",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "None"
+        }
+    ],
+    "https://globo.com": [
+        {
+            "name": "utag_main",
+            "value": "v_id:0180e6b8154f007c86184ca8094c05050001600d00fb8$_sn:1$_se:1$_ss:1$_st:1653140065424$ses_id:1653138265424%3Bexp-session$_pn:1%3Bexp-session",
+            "path": "/",
+            "domain": ".globo.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674265,
+            "sameSite": "None"
+        },
+        {
+            "name": "cookie-banner-consent-accepted",
+            "value": "false",
+            "path": "/",
+            "domain": ".globo.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684242266,
+            "sameSite": "None"
+        },
+        {
+            "name": "glb_uid",
+            "value": "\"eau9JNOQrTyQJ_6A-WU1P80WiQuyLZdWWDU1pk1ZKIo=\"",
+            "path": "/",
+            "domain": ".globo.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674268,
+            "sameSite": "None"
+        },
+        {
+            "name": "kppid",
+            "value": "17525878875501991936",
+            "path": "/",
+            "domain": ".globo.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684695218,
+            "sameSite": "None"
+        },
+        {
+            "name": "GLBEXP",
+            "value": "KiffdQSiXBKxHrozA5+T8bkyYRpQS6t1n70wxXRiBKY=",
+            "path": "/",
+            "domain": ".globo.com",
+            "secure": false,
+            "httpOnly": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "hsid",
+            "value": "fba89b8c-522a-4641-92ed-6a7cb2f9c8ba",
+            "path": "/",
+            "domain": ".globo.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653140067,
+            "sameSite": "None"
+        }
+    ],
+    "https://dan.com": [
+        {
+            "name": "bc9bd58fe1b6ef954d6d794db6d30e25e8ff50634d24346cf8006ef422e3c05c6e48b07678e34d08c97ad3f91012c80ac690b50f51fbd49b16e301de58d9c5ca",
+            "value": "I4Nr%2FN8sbsKfWFr7lwok9RMmnQFHmaS3PRkOuY3tetlsKx4xAnAUdU4uRsXFKuNh7jESxNFSDaVc8UpWur3e9zCv34PbcmyN041r8PvcGKOkCQS2OAIfvOrtjV8tIEEyLUIpHmE9o4G12DucoOaw1ayRytnRex6fb%2B9I9AIUy4XrHJHWAmNj%2FX1ZdDdPuTUWQZeJCExYg0N9Pitvq0H3MzFiS%2FmDLynAdOcfbcuCK8BnEZI8LM5SIsVD%2BmyBxeoMjVr04eYDQniqRMrBZvb0pT80%2FQ50vhdCA8BQtV0U4F0REvLYrfenMuvu3K0l1i%2Be7MeFwnhl1HqMRi0kinlzza%2BpH5EEUAkQgnpOOj%2BUt80Kolk86rsw10d6pqxw1JNr4RzoI7MjSwWP5og0W%2F6hHL4hVpIj%2FiCNCVKXJJcjk0caCNKFMy9BAW%2BpXd9gnRhbQfLZe2uY8nVpArYzgiyQWA%3D%3D--AO1eGg7c2QALUImA--xQQj4WmbuWYi%2BR8UvgSvig%3D%3D",
+            "path": "/",
+            "domain": "dan.com",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "time_zone_offset",
+            "value": "-120",
+            "path": "/",
+            "domain": "dan.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        }
+    ],
+    "https://ok.ru": [
+        {
+            "name": "bci",
+            "value": "-7689150459317292605",
+            "path": "/",
+            "domain": ".ok.ru",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 3800621927,
+            "sameSite": "None"
+        },
+        {
+            "name": "_statid",
+            "value": "aa2c8490-e19b-488e-8e71-97b4337cc1eb",
+            "path": "/",
+            "domain": ".ok.ru",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 3800621927,
+            "sameSite": "None"
+        },
+        {
+            "name": "viewport",
+            "value": "1400",
+            "path": "/",
+            "domain": "ok.ru",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "tmr_lvid",
+            "value": "505938a5e895e451ada342b8d5ecf77e",
+            "path": "/",
+            "domain": ".ok.ru",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1681909487,
+            "sameSite": "None"
+        },
+        {
+            "name": "tmr_lvidTS",
+            "value": "1653138288000",
+            "path": "/",
+            "domain": ".ok.ru",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1681909487,
+            "sameSite": "None"
+        },
+        {
+            "name": "tmr_reqNum",
+            "value": "1",
+            "path": "/",
+            "domain": ".ok.ru",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1681909487,
+            "sameSite": "None"
+        }
+    ],
+    "https://www.yahoo.com": [
+        {
+            "name": "A1",
+            "value": "d=AQABBHfjiGICECI4C0aezyzveQ_F-lJC6DcFEgEBAQE0imKSYgAAAAAA_eMAAA&S=AQAAAiCF1_EsYxBUC7AnKhbM-pg",
+            "path": "/",
+            "domain": ".yahoo.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1684695892,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "A1S",
+            "value": "d=AQABBHfjiGICECI4C0aezyzveQ_F-lJC6DcFEgEBAQE0imKSYgAAAAAA_eMAAA&S=AQAAAiCF1_EsYxBUC7AnKhbM-pg&j=WORLD",
+            "path": "/",
+            "domain": ".yahoo.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "cmp",
+            "value": "t=1653138293&j=0&u=1---",
+            "path": "/",
+            "domain": ".yahoo.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674292,
+            "sameSite": "None"
+        },
+        {
+            "name": "yhcstamp",
+            "value": "5553bb055da1885fc68f01c616ab7304",
+            "path": "/",
+            "domain": "www.yahoo.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653743093,
+            "sameSite": "None"
+        },
+        {
+            "name": "A3",
+            "value": "d=AQABBHfjiGICECI4C0aezyzveQ_F-lJC6DcFEgEBAQE0imKSYgAAAAAA_eMAAA&S=AQAAAiCF1_EsYxBUC7AnKhbM-pg",
+            "path": "/",
+            "domain": ".yahoo.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1684695895,
+            "sameSite": "None"
+        },
+        {
+            "name": "GUC",
+            "value": "AQEBAQFiijRikkIcWwRg",
+            "path": "/",
+            "domain": ".yahoo.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684695895,
+            "sameSite": "None"
+        }
+    ],
+    "https://imdb.com": [
+        {
+            "name": "session-id",
+            "value": "147-2599503-1347118",
+            "path": "/",
+            "domain": ".imdb.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 2082787201,
+            "sameSite": "None"
+        },
+        {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "domain": ".imdb.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 2082787201,
+            "sameSite": "None"
+        },
+        {
+            "name": "csm-hit",
+            "value": "adb:adblk_no&t:1653138298484",
+            "path": "/",
+            "domain": "www.imdb.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1683378298,
+            "sameSite": "None"
+        }
+    ],
+    "https://nytimes.com": [
+        {
+            "name": "nyt-gdpr",
+            "value": "1",
+            "path": "/",
+            "domain": ".nytimes.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653159911,
+            "sameSite": "None"
+        }
+    ],
+    "https://www.weebly.com": [
+        {
+            "name": "cookie-consent",
+            "value": "%7B%22allowStrictlyNecessaryCookies%22%3Atrue%2C%22allowFunctionalityCookies%22%3Atrue%2C%22allowPerformanceCookies%22%3Atrue%2C%22allowTargetingCookies%22%3Atrue%7D",
+            "path": "/",
+            "domain": "www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1968498322,
+            "sameSite": "None"
+        },
+        {
+            "name": "sto-id-editor",
+            "value": "MLGPBNAK",
+            "path": "/",
+            "domain": ".weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "srv_domainuserid",
+            "value": "3ce9a2566c36a06f12f52f598bebe325d0aab329",
+            "path": "/",
+            "domain": ".weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1968498322,
+            "sameSite": "None"
+        },
+        {
+            "name": "srv_domainuserid",
+            "value": "3ce9a2566c36a06f12f52f598bebe325d0aab329",
+            "path": "/",
+            "domain": "www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1968498322,
+            "sameSite": "None"
+        },
+        {
+            "name": "wtp-uuid",
+            "value": "74427153-d0ef-4d90-9c79-d4eaf55976a7",
+            "path": "/",
+            "domain": "www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "internal_signup_referer",
+            "value": "%7B%22internal_signup_referer%22%3A%22http%3A%5C%2F%5C%2Fwww.weebly.com%5C%2Fch%22%7D",
+            "path": "/",
+            "domain": "www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730322,
+            "sameSite": "None"
+        },
+        {
+            "name": "external_signup_referer",
+            "value": "%7B%22external_signup_referer%22%3A%22None%22%7D",
+            "path": "/",
+            "domain": "www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730322,
+            "sameSite": "None"
+        },
+        {
+            "name": "external_paid_signup_referer",
+            "value": "%7B%22external_paid_signup_referer%22%3A%22None%22%7D",
+            "path": "/",
+            "domain": "www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730322,
+            "sameSite": "None"
+        },
+        {
+            "name": "wcid",
+            "value": "wi631pu95efgsl52",
+            "path": "/",
+            "domain": "www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1654347922,
+            "sameSite": "None"
+        },
+        {
+            "name": "wct-bG9jYWxlTmV3VXNlckNoYXQ_",
+            "value": "ZXhjbHVkZWQ_",
+            "path": "/",
+            "domain": "www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1654347922,
+            "sameSite": "None"
+        },
+        {
+            "name": "wct-c2lnbnVwX21haWxjaGVja19hbGxlbmc_",
+            "value": "ZXhjbHVkZWQ_",
+            "path": "/",
+            "domain": "www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1654347922,
+            "sameSite": "None"
+        },
+        {
+            "name": "_csrf",
+            "value": "L05cD4qyQbJ4YTdqGch__LNf6l86AWxnYu6YZAjwAlc",
+            "path": "/",
+            "domain": ".www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "wct-aG9tZXBhZ2Vfd2Vic2l0ZV9tZXNzYWdpbmdfdjU_",
+            "value": "ZXhjbHVkZWQ_",
+            "path": "/",
+            "domain": "www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1654347922,
+            "sameSite": "None"
+        },
+        {
+            "name": "gdpr-kb",
+            "value": "true",
+            "path": "/",
+            "domain": "www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 32472187200,
+            "sameSite": "None"
+        },
+        {
+            "name": "language",
+            "value": "de",
+            "path": "/",
+            "domain": "www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1654347924,
+            "sameSite": "None"
+        },
+        {
+            "name": "weebly_tracking_sessionid",
+            "value": "3ce9a2566c36a06f12f52f598bebe325d0aab329_918410",
+            "path": "/",
+            "domain": "www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653140124,
+            "sameSite": "None"
+        },
+        {
+            "name": "dajs_user_id",
+            "value": "null",
+            "path": "/",
+            "domain": ".weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674324,
+            "sameSite": "None"
+        },
+        {
+            "name": "dajs_group_id",
+            "value": "null",
+            "path": "/",
+            "domain": ".weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674324,
+            "sameSite": "None"
+        },
+        {
+            "name": "_sp_ses.43a9",
+            "value": "*",
+            "path": "/",
+            "domain": ".www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653140124,
+            "sameSite": "None"
+        },
+        {
+            "name": "_gcl_au",
+            "value": "1.1.1008698406.1653138325",
+            "path": "/",
+            "domain": ".weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1660914324,
+            "sameSite": "None"
+        },
+        {
+            "name": "_sp_id.43a9",
+            "value": "f6b1c03c-bb3f-4601-bd4b-09dcd0f6b350.1653138324.1.1653138325.1653138324.a4b1dfee-20cb-4189-87fb-62ee8e5cc293",
+            "path": "/",
+            "domain": ".www.weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210324,
+            "sameSite": "None"
+        },
+        {
+            "name": "amplitude_id_2cff1f37ded3941acd579dea0c7cf22cweebly.com",
+            "value": "eyJkZXZpY2VJZCI6IjNmMjUwODNmLTQ0NWMtNDYyYy1iNzM3LTUwOGQzNDhmZGE5ZlIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTY1MzEzODMyNDEyNiwibGFzdEV2ZW50VGltZSI6MTY1MzEzODMyNDY4NSwiZXZlbnRJZCI6MSwiaWRlbnRpZnlJZCI6MSwic2VxdWVuY2VOdW1iZXIiOjJ9",
+            "path": "/",
+            "domain": ".weebly.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1968498324,
+            "sameSite": "None"
+        },
+        {
+            "name": "sp",
+            "value": "6668f4c6-121d-430b-8ddd-f8917079c278",
+            "path": "/",
+            "domain": ".weebly.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674328,
+            "sameSite": "None"
+        }
+    ],
+    "https://youronlinechoices.com": [],
+    "https://bbc.com": [
+        {
+            "name": "ckns_explicit",
+            "value": "0",
+            "path": "/",
+            "domain": ".bbc.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674331,
+            "sameSite": "None"
+        },
+        {
+            "name": "ckns_policy",
+            "value": "111",
+            "path": "/",
+            "domain": ".bbc.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674331,
+            "sameSite": "None"
+        },
+        {
+            "name": "ckns_policy_exp",
+            "value": "1684674331056",
+            "path": "/",
+            "domain": ".bbc.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1687352731,
+            "sameSite": "None"
+        },
+        {
+            "name": "atuserid",
+            "value": "%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%226d9acf34-07e7-4aaf-93c2-fb230a3713f5%22%2C%22options%22%3A%7B%22end%22%3A%222023-06-22T13%3A05%3A31.087Z%22%2C%22path%22%3A%22%2F%22%7D%7D",
+            "path": "/",
+            "domain": ".bbc.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1687439131,
+            "sameSite": "None"
+        },
+        {
+            "name": "optimizelyEndUserId",
+            "value": "oeu1653138331178r0.1765585378558474",
+            "path": "/",
+            "domain": ".bbc.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674331,
+            "sameSite": "None"
+        },
+        {
+            "name": "ckpf_ppid",
+            "value": "e5b2f34a768a4404af19fe3ac391f9a6",
+            "path": "/",
+            "domain": ".bbc.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674331,
+            "sameSite": "None"
+        },
+        {
+            "name": "ecos.dt",
+            "value": "1653138338001",
+            "path": "/",
+            "domain": ".www.bbc.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        }
+    ],
+    "https://medium.com": [
+        {
+            "name": "__cfruid",
+            "value": "3e51afae316d7960f34e103e233c7697c8c560ef-1653138341",
+            "path": "/",
+            "domain": ".medium.com",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "dd_cookie_test_274f9ff5-8dde-471f-947d-2f5b78250c0d",
+            "value": "test",
+            "path": "/",
+            "domain": "medium.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653138340,
+            "sameSite": "Strict"
+        },
+        {
+            "name": "_dd_s",
+            "value": "rum=0&expire=1653139239059",
+            "path": "/",
+            "domain": "medium.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653139239,
+            "sameSite": "Strict"
+        },
+        {
+            "name": "dd_cookie_test_b35434b8-5411-4067-9a8a-153699c99c27",
+            "value": "test",
+            "path": "/",
+            "domain": "medium.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653138340,
+            "sameSite": "Strict"
+        },
+        {
+            "name": "dd_cookie_test_91b643de-5242-4145-9b4f-85daac03e250",
+            "value": "test",
+            "path": "/",
+            "domain": "medium.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653138340,
+            "sameSite": "Strict"
+        },
+        {
+            "name": "sid",
+            "value": "1:rnzQ6EcY1pNBT+hCybmsCNUzcjHTIva5NITPlxxLQlgTs39BR0hbrUyytCXKLfFZ",
+            "path": "/",
+            "domain": ".medium.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1684674342,
+            "sameSite": "None"
+        },
+        {
+            "name": "uid",
+            "value": "lo_ef7f16b0528e",
+            "path": "/",
+            "domain": ".medium.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1684674342,
+            "sameSite": "None"
+        },
+        {
+            "name": "dd_cookie_test_cbbd02e2-9417-4472-98a0-6fa96ebbaabe",
+            "value": "test",
+            "path": "/",
+            "domain": "medium.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653138341,
+            "sameSite": "Strict"
+        },
+        {
+            "name": "dd_cookie_test_b03fea95-0c27-429b-9366-d28126c1ad75",
+            "value": "test",
+            "path": "/",
+            "domain": "medium.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653138341,
+            "sameSite": "Strict"
+        },
+        {
+            "name": "dd_cookie_test_77db7f2a-1bc4-421a-9b0a-9ff46019faa6",
+            "value": "test",
+            "path": "/",
+            "domain": "medium.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653138341,
+            "sameSite": "Strict"
+        },
+        {
+            "name": "dd_cookie_test_eda42611-a588-459d-b2f0-2d1d8a12a6d5",
+            "value": "test",
+            "path": "/",
+            "domain": "medium.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653138341,
+            "sameSite": "Strict"
+        },
+        {
+            "name": "dd_cookie_test_367f4b45-8a49-44d7-9291-c5f8deae38c6",
+            "value": "test",
+            "path": "/",
+            "domain": "medium.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653138341,
+            "sameSite": "Strict"
+        },
+        {
+            "name": "dd_cookie_test_e48c4af1-3265-4fec-b85d-6ea51137a569",
+            "value": "test",
+            "path": "/",
+            "domain": "medium.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653138341,
+            "sameSite": "Strict"
+        }
+    ],
+    "https://cnn.com": [
+        {
+            "name": "countryCode",
+            "value": "CH",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "stateCode",
+            "value": "ZH",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "geoData",
+            "value": "schlieren|ZH|8952|CH|EU|200|broadband|47.400|8.450",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "FastAB",
+            "value": "0=4531,1=6896,2=4487,3=7859,4=6501,5=8325,6=0710,7=2629,8=6487,9=0300",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1688169600,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "usprivacy",
+            "value": "1---",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "optimizelyEndUserId",
+            "value": "oeu1653138343141r0.5439936556390131",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1668690343,
+            "sameSite": "None"
+        },
+        {
+            "name": "FastAB_Zion",
+            "value": "5.1",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "OptanonConsent",
+            "value": "isIABGlobal=false&datestamp=Sat+May+21+2022+15%3A05%3A43+GMT%2B0200+(Mitteleurop%C3%A4ische+Sommerzeit)&version=6.34.0&hosts=&consentId=9347a5d5-8748-4cd5-886e-913421466b10&interactionCount=0&landingPath=https%3A%2F%2Fedition.cnn.com%2F&groups=BG173%3A1%2Csmv%3A1%2Cpfv%3A1%2Cpzv%3A1%2Cven%3A1%2Csav%3A1%2Cpf%3A1%2Csa%3A1%2Cad%3A1%2Csm%3A1%2Ctdc%3A1%2Ccos%3A1%2Cdid%3A1%2Cdlk%3A1%2Cpcp%3A1%2Cdsa%3A1%2Cmra%3A1%2Cmap%3A1%2Cpap%3A1%2Cgld%3A1%2Cpad%3A1%2Cpdd%3A1%2Csid%3A1%2Ccad%3A1%2Csec%3A1%2Cai%3A1%2Cfc%3A1%2Ctc%3A1%2Cpcd%3A1%2Cmcp%3A1%2Creq%3A1",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674343,
+            "sameSite": "None"
+        },
+        {
+            "name": "umto",
+            "value": "1",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653231944,
+            "sameSite": "None"
+        },
+        {
+            "name": "cnprevpage_pn",
+            "value": "cnn%3Ain%3Aedition%3A%2F",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653140144,
+            "sameSite": "None"
+        },
+        {
+            "name": "seenBreakingNews",
+            "value": "",
+            "path": "/",
+            "domain": "edition.cnn.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "_pbjs_userid_consent_data",
+            "value": "3524755945110770",
+            "path": "/",
+            "domain": "edition.cnn.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730344,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "_sp_ses.f5fb",
+            "value": "*",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653140145,
+            "sameSite": "None"
+        },
+        {
+            "name": "_sp_id.f5fb",
+            "value": "37f1d51f-7970-44f1-ae54-6a31bf4fdd69.1653138345.1.1653138345.1653138345.189a7dde-c4ce-4912-8f91-449adb68f867",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674345,
+            "sameSite": "None"
+        },
+        {
+            "name": "OptanonControl",
+            "value": "ccc=CH&csc=ZH&cic=0&otvers=6.34.0&pctm=0&reg=global&ustcs=1---&vers=3.1.15",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674345,
+            "sameSite": "None"
+        },
+        {
+            "name": "AMCVS_7FF852E2556756057F000101%40AdobeOrg",
+            "value": "1",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "AMCV_7FF852E2556756057F000101%40AdobeOrg",
+            "value": "-1124106680%7CMCIDTS%7C19134%7CMCMID%7C91007477349039432106347927814862127537%7CMCAID%7CNONE%7CMCOPTOUT-1653145545s%7CNONE%7CvVersion%7C5.2.0",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716296745,
+            "sameSite": "None"
+        },
+        {
+            "name": "s_cc",
+            "value": "true",
+            "path": "/",
+            "domain": ".cnn.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "ug",
+            "value": "6288e3ac0aba900a3f8b5e001853cb0c",
+            "path": "/",
+            "domain": "edition.cnn.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674345,
+            "sameSite": "None"
+        },
+        {
+            "name": "ugs",
+            "value": "1",
+            "path": "/",
+            "domain": "edition.cnn.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653231945,
+            "sameSite": "None"
+        }
+    ],
+    "https://line.me": [
+        {
+            "name": "ldsuid",
+            "value": "f314a16633ef0e1a72ee12c6c64d5f35",
+            "path": "/",
+            "domain": "line.me",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1660914364,
+            "sameSite": "None"
+        }
+    ],
+    "https://live.com": [
+        {
+            "name": "ClientId",
+            "value": "F3B8AD4D221745CBAB40528293D22597",
+            "path": "/",
+            "domain": "outlook.live.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674375,
+            "sameSite": "None"
+        },
+        {
+            "name": "logonLatency",
+            "value": "LGN01=637887351757861316",
+            "path": "/",
+            "domain": ".live.com",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "MSFPC",
+            "value": "GUID=4b4fc49a3bfe464ca36d5976a7efeaaa&HASH=4b4f&LV=202205&V=4&LU=1653138376351",
+            "path": "/",
+            "domain": "outlook.live.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674376,
+            "sameSite": "None"
+        },
+        {
+            "name": "OWAPF",
+            "value": "p:00000111&v:15.20.5273.13&l:mouse&",
+            "path": "/",
+            "domain": "outlook.live.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        }
+    ],
+    "https://gstatic.com": [],
+    "https://brandbucket.com": [
+        {
+            "name": "PHPSESSID",
+            "value": "l9pr7s4dkohe6u0b34s5sf8b75",
+            "path": "/",
+            "domain": "www.brandbucket.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "land_URL",
+            "value": "1653138385%3B%2F",
+            "path": "/",
+            "domain": "www.brandbucket.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1660914383,
+            "sameSite": "None"
+        },
+        {
+            "name": "land_referrer",
+            "value": "1653138385%3B",
+            "path": "/",
+            "domain": "www.brandbucket.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1660914383,
+            "sameSite": "None"
+        }
+    ],
+    "https://paypal.com": [
+        {
+            "name": "cookie_check",
+            "value": "yes",
+            "path": "/",
+            "domain": ".paypal.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1968757586,
+            "sameSite": "None"
+        },
+        {
+            "name": "nsid",
+            "value": "s%3ABdLshYV46yh7WqIQKMFiln0YGrZGoSLa.%2Bg9abZLn70LKWoL6PnHXLfZRiaPpuAqC%2F3TybTeOmP4",
+            "path": "/",
+            "domain": "www.paypal.com",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "enforce_policy",
+            "value": "gdpr_v2.1",
+            "path": "/",
+            "domain": ".paypal.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674388,
+            "sameSite": "None"
+        },
+        {
+            "name": "LANG",
+            "value": "de_DE%3BCH",
+            "path": "/",
+            "domain": ".paypal.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1653169944,
+            "sameSite": "None"
+        },
+        {
+            "name": "x-pp-s",
+            "value": "eyJ0IjoiMTY1MzEzODM5MTQwNiIsImwiOiIwIiwibSI6IjAifQ",
+            "path": "/",
+            "domain": ".paypal.com",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "tsrce",
+            "value": "authchallengenodeweb",
+            "path": "/",
+            "domain": ".paypal.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1653397591,
+            "sameSite": "None"
+        },
+        {
+            "name": "l7_az",
+            "value": "dcg14.slc",
+            "path": "/",
+            "domain": ".paypal.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1653140191,
+            "sameSite": "None"
+        },
+        {
+            "name": "ts",
+            "value": "vreXpYrS%3D1747832791%26vteXpYrS%3D1653140191%26vr%3De6b9fac71800aa112a9fe835fabf9dce%26vt%3De6b9fac71800aa112a9fe835fabf9dcd%26vtyp%3Dnew",
+            "path": "/",
+            "domain": ".paypal.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1747746391,
+            "sameSite": "None"
+        },
+        {
+            "name": "ts_c",
+            "value": "vr%3De6b9fac71800aa112a9fe835fabf9dce%26vt%3De6b9fac71800aa112a9fe835fabf9dcd",
+            "path": "/",
+            "domain": ".paypal.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1747746391,
+            "sameSite": "None"
+        }
+    ],
+    "https://google.co.jp": [
+        {
+            "name": "CONSENT",
+            "value": "PENDING+907",
+            "path": "/",
+            "domain": ".google.co.jp",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210393,
+            "sameSite": "None"
+        },
+        {
+            "name": "AEC",
+            "value": "AakniGPOu2CrnjmGOyIOKEGNiaBR9WYAiioUx54RZNRYQwhHptqstPtdcQ",
+            "path": "/",
+            "domain": ".google.co.jp",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668690393,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=Q2TozOcfDjN2bGRmM6DMd08PQTUg9UKFvfH4M10WTgL1rrY1RMEn_7UxbbFq-bqph4tbDrHMRCWMuatz3_Ek0l2CrM7677AizglUMoZ3ZOUVpHj87uswAwFL4WXHx6Z6-519IUseuF7ECnEVocBlp-yXOtXGgANp-QdWvJ7e0qE",
+            "path": "/",
+            "domain": ".google.co.jp",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687325091,
+            "sameSite": "Lax"
+        }
+    ],
+    "https://enable-javascript.com": [
+        {
+            "name": "ASP.NET_SessionId",
+            "value": "jxewhyerqelvnjgk5msmfbxe",
+            "path": "/",
+            "domain": "enable-javascript.com",
+            "secure": false,
+            "httpOnly": true,
+            "sameSite": "Lax"
+        }
+    ],
+    "https://who.int": [
+        {
+            "name": "__cfruid",
+            "value": "6fe7d7e655e36e9ef6066b563c252431aa10ebfe-1653138401",
+            "path": "/",
+            "domain": ".who.int",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "_gcl_au",
+            "value": "1.1.738431646.1653138399",
+            "path": "/",
+            "domain": ".who.int",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1660914399,
+            "sameSite": "None"
+        },
+        {
+            "name": "sf-prs-ss",
+            "value": "637887351994630000",
+            "path": "/",
+            "domain": "www.who.int",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "sf-prs-lu",
+            "value": "https://www.who.int/",
+            "path": "/",
+            "domain": "www.who.int",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "Lax"
+        }
+    ],
+    "https://myspace.com": [
+        {
+            "name": "persistent_id",
+            "value": "pid%3Dedbfdfcc-6cf2-4e24-b23e-c12798c72162%26llid%3D%26lprid%3D%26lltime%3D",
+            "path": "/",
+            "domain": ".myspace.com",
+            "secure": false,
+            "httpOnly": true,
+            "expiry": 2283858518,
+            "sameSite": "None"
+        },
+        {
+            "name": "beacons_enabled",
+            "value": "true",
+            "path": "/",
+            "domain": ".myspace.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653140318,
+            "sameSite": "None"
+        },
+        {
+            "name": "player",
+            "value": "sequenceId=-1&paused=true&currentTime=0&volume=0.5&mute=false&shuffled=false&repeat=off&mode=queue&pinned=false&at=360&incognito=false&allowSkips=true&ccOn=false",
+            "path": "/",
+            "domain": ".myspace.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730403,
+            "sameSite": "None"
+        },
+        {
+            "name": "visit_id",
+            "value": "09768899-420c-493b-a418-1f822fc07536",
+            "path": "/",
+            "domain": ".myspace.com",
+            "secure": false,
+            "httpOnly": true,
+            "expiry": 1653140205,
+            "sameSite": "None"
+        }
+    ],
+    "https://google.de": [
+        {
+            "name": "CONSENT",
+            "value": "PENDING+531",
+            "path": "/",
+            "domain": ".google.de",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210410,
+            "sameSite": "None"
+        },
+        {
+            "name": "AEC",
+            "value": "AakniGNdBI1hNzcNd1dPwmtdb0xGbhw_m1jRf0-hj4-C0NOS44A-D6iZQw",
+            "path": "/",
+            "domain": ".google.de",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668690410,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=nSHbA6MgvEnOeHesBe6D2--RlgRDg_XUklFpaRHBadpWppJ8xELpGtXtwj4pHwjP4RVdh3W-aKmd72Ur1c4CseoNqLbkdcek3gDaq9vgRexjKYTEi4vITjN9bQYkx_m8xc3oK2heXlBXlhjFm1-cRl4x_xe4zuc2wgDYPRKWMpo",
+            "path": "/",
+            "domain": ".google.de",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687325108,
+            "sameSite": "Lax"
+        }
+    ],
+    "https://w3.org": [
+        {
+            "name": "_pk_id.447.fbaa",
+            "value": "4a4654815c5ed35c.1653138412.",
+            "path": "/",
+            "domain": "www.w3.org",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1687093612,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "_pk_ses.447.fbaa",
+            "value": "1",
+            "path": "/",
+            "domain": "www.w3.org",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653140212,
+            "sameSite": "Lax"
+        }
+    ],
+    "https://google.com.br": [
+        {
+            "name": "CONSENT",
+            "value": "PENDING+708",
+            "path": "/",
+            "domain": ".google.com.br",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210418,
+            "sameSite": "None"
+        },
+        {
+            "name": "AEC",
+            "value": "AakniGNNu7aNEeaRhJJbb6u8bq-dgy9H8XB3mODaXoDSayUcK9jwH13iKJY",
+            "path": "/",
+            "domain": ".google.com.br",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668690418,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=Yg4mmiFmowUh0l09qr8pBZWtcpuNDOVuLTcti5A0lMW9_iv2tr11vtagK8ko-qNYsRhNbHvclnk6Ieypd8bjCS79kl15lQCcf_5ETyGeOuA8dmP7uBjSHVj5AVJrGElITmJUTqz4K4PzpVMdAACkpKpwNdWRd7E498sVK9WPItk",
+            "path": "/",
+            "domain": ".google.com.br",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687325116,
+            "sameSite": "Lax"
+        }
+    ],
+    "https://bbc.co.uk": [
+        {
+            "name": "optimizelyEndUserId",
+            "value": "oeu1653138331178r0.1765585378558474",
+            "path": "/",
+            "domain": ".bbc.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674420,
+            "sameSite": "None"
+        },
+        {
+            "name": "atuserid",
+            "value": "%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%226d9acf34-07e7-4aaf-93c2-fb230a3713f5%22%2C%22options%22%3A%7B%22end%22%3A%222023-06-22T13%3A07%3A00.729Z%22%2C%22path%22%3A%22%2F%22%7D%7D",
+            "path": "/",
+            "domain": ".bbc.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1687439220,
+            "sameSite": "None"
+        },
+        {
+            "name": "ckns_explicit",
+            "value": "0",
+            "path": "/",
+            "domain": ".bbc.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674420,
+            "sameSite": "None"
+        },
+        {
+            "name": "ckns_policy",
+            "value": "111",
+            "path": "/",
+            "domain": ".bbc.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674420,
+            "sameSite": "None"
+        },
+        {
+            "name": "ckns_policy_exp",
+            "value": "1684674420737",
+            "path": "/",
+            "domain": ".bbc.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1687352820,
+            "sameSite": "None"
+        },
+        {
+            "name": "ckpf_ppid",
+            "value": "e5b2f34a768a4404af19fe3ac391f9a6",
+            "path": "/",
+            "domain": ".bbc.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674421,
+            "sameSite": "None"
+        },
+        {
+            "name": "ecos.dt",
+            "value": "1653138422612",
+            "path": "/",
+            "domain": ".www.bbc.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        }
+    ],
+    "https://slideshare.net": [
+        {
+            "name": "language",
+            "value": "**",
+            "path": "/",
+            "domain": "www.slideshare.net",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "browser_id",
+            "value": "1a9fef7e-ef24-40c3-bc62-160b601c2cdf",
+            "path": "/",
+            "domain": "www.slideshare.net",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1810904827,
+            "sameSite": "None"
+        },
+        {
+            "name": "flash",
+            "value": "BAh7DUkiC25vdGljZQY6BkVGMEkiDHdhcm5pbmcGOwBGMEkiDG1lc3NhZ2UGOwBGMEkiDHN1Y2Nlc3MGOwBGMEkiCmVycm9yBjsARjBJIg5wZXJtYW5lbnQGOwBGMEkiEW1vZGFsX25vdGljZQY7AEYwSSIOZHdubGRsb29wBjsARjA%3D--8dc55716161860091ca7fa856ddba4f81b5fa004",
+            "path": "/",
+            "domain": "www.slideshare.net",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "tos_update_banner_shows",
+            "value": "1",
+            "path": "/",
+            "domain": "www.slideshare.net",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674424,
+            "sameSite": "None"
+        }
+    ],
+    "https://files.wordpress.com": [
+        {
+            "name": "tk_ai",
+            "value": "kDlJT6o2Lvceh0VAxH9nO3bh",
+            "path": "/",
+            "domain": ".wordpress.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1654348028,
+            "sameSite": "None"
+        },
+        {
+            "name": "explat_test_aa_weekly_lohp_2022_week_20",
+            "value": "control",
+            "path": "/",
+            "domain": ".wordpress.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1654473597,
+            "sameSite": "None"
+        },
+        {
+            "name": "country_code",
+            "value": "CH",
+            "path": "/",
+            "domain": ".wordpress.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653160028,
+            "sameSite": "None"
+        },
+        {
+            "name": "ccpa_applies",
+            "value": "false",
+            "path": "/",
+            "domain": ".wordpress.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653224828,
+            "sameSite": "None"
+        },
+        {
+            "name": "usprivacy",
+            "value": "1---",
+            "path": "/",
+            "domain": ".wordpress.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653224828,
+            "sameSite": "None"
+        },
+        {
+            "name": "landingpage_currency",
+            "value": "EUR",
+            "path": "/",
+            "domain": ".wordpress.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674429,
+            "sameSite": "None"
+        },
+        {
+            "name": "tk_qs",
+            "value": "",
+            "path": "/",
+            "domain": ".wordpress.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653140231,
+            "sameSite": "None"
+        }
+    ],
+    "https://nih.gov": [],
+    "https://creativecommons.org": [],
+    "https://jimdofree.com": [
+        {
+            "name": "languageRedirect",
+            "value": "browserLang",
+            "path": "/",
+            "domain": ".jimdo.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "_dd_s",
+            "value": "logs=1&id=713149ff-a337-4d8f-9077-291eee51871a&created=1653138459322&expire=1653139360761&rum=1",
+            "path": "/",
+            "domain": "www.jimdo.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653139360,
+            "sameSite": "Strict"
+        },
+        {
+            "name": "jLang",
+            "value": "de",
+            "path": "/",
+            "domain": ".jimdo.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "shd",
+            "value": "26898cc7-e517-40f8-b326-e6d4d257c9d3",
+            "path": "/",
+            "domain": ".jimdo.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674460,
+            "sameSite": "Lax"
+        }
+    ],
+    "https://wikimedia.org": [
+        {
+            "name": "GeoIP",
+            "value": "CH:ZH:Schlieren:47.39:8.45:v4",
+            "path": "/",
+            "domain": ".wikimedia.org",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "WMF-Last-Access",
+            "value": "21-May-2022",
+            "path": "/",
+            "domain": "wikimedia.org",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1655899200,
+            "sameSite": "None"
+        },
+        {
+            "name": "WMF-Last-Access-Global",
+            "value": "21-May-2022",
+            "path": "/",
+            "domain": ".wikimedia.org",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1655899200,
+            "sameSite": "None"
+        },
+        {
+            "name": "WMF-Last-Access",
+            "value": "21-May-2022",
+            "path": "/",
+            "domain": "www.wikimedia.org",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1655899200,
+            "sameSite": "None"
+        }
+    ],
+    "https://policies.google.com": [
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        },
+        {
+            "name": "AEC",
+            "value": "AakniGNWd7YbIEJl1pNar5sMm53sevowxBEDwbL5J5zZ63W3zUqVlDrFdwY",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668690201,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "OTZ",
+            "value": "6513908_48_52_123900_48_436380",
+            "path": "/",
+            "domain": "policies.google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1655730466,
+            "sameSite": "None"
+        }
+    ],
+    "https://networkadvertising.org": [],
+    "https://mediafire.com": [
+        {
+            "name": "ukey",
+            "value": "xrtizwyryulratot6j08a7qj7187c1uy",
+            "path": "/",
+            "domain": ".mediafire.com",
+            "secure": false,
+            "httpOnly": true,
+            "expiry": 2284290473,
+            "sameSite": "None"
+        },
+        {
+            "name": "__cf_bm",
+            "value": "YesdKMrhXzEuK26pP72GdsrwxNJY._FpMMZ6zv1ezc8-1653138476-0-AdisFaBSkBuLHH4MKEnmESfx0RHj7AngZvvLhfQyXh63e5jxkokcPidiICWtTGhwifcR0+0kowsexU2ExwdCMf8=",
+            "path": "/",
+            "domain": ".mediafire.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1653140276,
+            "sameSite": "None"
+        },
+        {
+            "name": "_ga_K68XP6D85D",
+            "value": "GS1.1.1653138475.1.0.1653138475.0",
+            "path": "/",
+            "domain": ".mediafire.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210475,
+            "sameSite": "None"
+        },
+        {
+            "name": "_ga",
+            "value": "GA1.1.71024428.1653138476",
+            "path": "/",
+            "domain": ".mediafire.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210475,
+            "sameSite": "None"
+        }
+    ],
+    "https://washingtonpost.com": [
+        {
+            "name": "wp_devicetype",
+            "value": "0",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1655730481,
+            "sameSite": "None"
+        },
+        {
+            "name": "wp_ak_v_ot",
+            "value": "1",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1658322478,
+            "sameSite": "None"
+        },
+        {
+            "name": "wp_ak_ot",
+            "value": "1|20211012",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1658322478,
+            "sameSite": "None"
+        },
+        {
+            "name": "wp_ak_v_m",
+            "value": "0|20220425",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674478,
+            "sameSite": "None"
+        },
+        {
+            "name": "wp_geo",
+            "value": "CH|ZH|||EEA",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653142078,
+            "sameSite": "None"
+        },
+        {
+            "name": "wp_country",
+            "value": "CH",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653142078,
+            "sameSite": "None"
+        },
+        {
+            "name": "wp_ak_v_nav",
+            "value": "0|A",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653142081,
+            "sameSite": "None"
+        },
+        {
+            "name": "ak_bmsc",
+            "value": "2B42FCB72B1682B4CC6390082605DE27~000000000000000000000000000000~YAAQkfptaFXDvZaAAQAAo2G75g+S7NBjkdVVMQo8/pc46o7+3WQs6AkQ3V5wSlD4bfrcHy95fySzZZzYCr2ts1WaX+4a+OuNCx766Cz+pbgmWwbsnXBW3Qy8h9jgfLddLrJdOmgHelY2R2CY12W2/h6+NuXAfKaErBp7Gl6Xm5E3owF3xTWTIRKPFicELmk+y3LxFZFXFgej9+sHNkkX6q/i+TKHNuTzldyzb5qzCEgmX5G9iQHiJRBN0RkzHwrVeK0ncxYDZ6e4yWcuE0ULuTHfqSOT+z1U7ohaDiLWMspEQqS+LCmL3tJ7No6RbUTvPgGzreGf5uPIOMaLdyZFWhVfHq9sey9dXc2RkeReoO3OpZieBZnFwJQ5kKX/nBAe9YSSq2kcXgOL6edmGRknwMA=",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": false,
+            "httpOnly": true,
+            "expiry": 1653145678,
+            "sameSite": "None"
+        },
+        {
+            "name": "_gaexp",
+            "value": "GAX1.2.3gY8TfBUQy645wcR55Xl0w.19145.0",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1654128000,
+            "sameSite": "None"
+        },
+        {
+            "name": "wp_pwapi_ar",
+            "value": "\"H4sIAAAAAAAA/6uuBQBDv6ajAgAAAA==\"",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1660914480,
+            "sameSite": "None"
+        },
+        {
+            "name": "rplampr",
+            "value": "0a|20181213",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674483,
+            "sameSite": "None"
+        },
+        {
+            "name": "RT",
+            "value": "\"z=1&dm=www.washingtonpost.com&si=efe618b0-870f-4995-862b-07be5e70600a&ss=l3fvytpi&sl=0&tt=0\"",
+            "path": "/",
+            "domain": ".www.washingtonpost.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653743281,
+            "sameSite": "None"
+        },
+        {
+            "name": "wp_ak_bt",
+            "value": "1|20200518",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1658322483,
+            "sameSite": "None"
+        },
+        {
+            "name": "wp_ak_bfd",
+            "value": "1|20201222",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1658322483,
+            "sameSite": "None"
+        },
+        {
+            "name": "wp_ak_tos",
+            "value": "1|20211110",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1658322483,
+            "sameSite": "None"
+        },
+        {
+            "name": "wp_ak_sff",
+            "value": "1|20220425",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1658322483,
+            "sameSite": "None"
+        },
+        {
+            "name": "wp_ak_co",
+            "value": "2|20220505",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1658322483,
+            "sameSite": "None"
+        },
+        {
+            "name": "wp_ak_pp",
+            "value": "1|20210310",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1655730483,
+            "sameSite": "None"
+        },
+        {
+            "name": "wp_usp",
+            "value": "1---",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653224881,
+            "sameSite": "None"
+        },
+        {
+            "name": "rpisb",
+            "value": "rBEAA2KI5DOBbQAXJQCoAg==",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "bm_sv",
+            "value": "7352D2CE88A760EB409B5F447D6EF66E~YAAQkfptaIbDvZaAAQAAGWu75g+8orPYmAhi981avv/6PzDiQYjTcAvSfSmj7m5RW0ijQXy/G6g9cgq9sesEYl5dHHa1hr+QQS8TXe6y+rBn/NPvMG5IieDohcoBNWLxyVdccylcsbLiQn1kZr1/272dCNPt7mCTGLbr+7SLh8w0nPCIFN8zOkXyeyUYqJQJ9GWGIKNQBBCRacjxKc5xskDwqsC5/RiXz5bIcDAR/MUXoyU9i6gkdxUNUuxdsoRRezpV6r78Tok=~1",
+            "path": "/",
+            "domain": ".washingtonpost.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653145680,
+            "sameSite": "None"
+        }
+    ],
+    "https://mail.google.com": [
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=T-eoDZgghli5W4BUC8us8pEzcHZFiBIiGyx4PVQY5Ay7u8eJ_TzNCn05mp0K0RI2pkYiuF8VLMfnV3lv7xPWECaLTuryHGAH53-8FBARqT4tuJVue5Yjv2MA7G5aU5j7u9Z3U8ia5ad-EYMqwm954S4UsJF5Dqw0wGjZylYnQFg",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687324767,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "CONSENT",
+            "value": "PENDING+826",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210069,
+            "sameSite": "None"
+        },
+        {
+            "name": "NID",
+            "value": "511=DvAt4unGfcyM21H4zKc_BfKKpPjLR-YAUQ-kHizL38ALtAF9V8Pb_yiCagZJ_3e8CU7DEg-vOiS7jeh6nkKOiWjNQSIZ8cogcsX-Q4_RkzIt82iFq7n_fC4ebgPM4lVzCF6sgOWfEtX0wj1Q_g-P3jlf-vDFaZ704PKBUjl0xAo",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668949281,
+            "sameSite": "None"
+        },
+        {
+            "name": "OGPC",
+            "value": "1151720448-1:",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730080,
+            "sameSite": "None"
+        },
+        {
+            "name": "AEC",
+            "value": "AakniGNWd7YbIEJl1pNar5sMm53sevowxBEDwbL5J5zZ63W3zUqVlDrFdwY",
+            "path": "/",
+            "domain": ".google.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668690201,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "_ga_3WTQFP9ECQ",
+            "value": "GS1.1-2.1653138121.1.1.1653138484.0",
+            "path": "/intl",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210484,
+            "sameSite": "None"
+        },
+        {
+            "name": "_ga",
+            "value": "GA1.1-2.401518581.1653138122",
+            "path": "/intl",
+            "domain": ".google.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210484,
+            "sameSite": "None"
+        }
+    ],
+    "https://afternic.com": [
+        {
+            "name": "PHPSESSID",
+            "value": "dh0fbkiv6lp046s941gequstj1",
+            "path": "/",
+            "domain": "www.afternic.com",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "AFTERNICSERVERID",
+            "value": "www05",
+            "path": "/",
+            "domain": "www.afternic.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "AKA_A2",
+            "value": "A",
+            "path": "/",
+            "domain": ".afternic.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1653142092,
+            "sameSite": "None"
+        },
+        {
+            "name": "_abck",
+            "value": "E4FF9399A64736809CFB0D9EB01CCD5C~-1~YAAQ5yv3wSilk5SAAQAAEoy75gdFhIfTKK7sOGAcFCRQzgWrVjGU9xAL8Y6hCFItp4eIdMfDb32/0DJd6wTiVH+GAx695t5h9DXKlhKwN581v3KrF40XIHmku1tDXzLGDPzgmpC8EpJGmVHe8yFcFXf1v/0FOZQNqIGOwlAht4rF+nVy4ZPc2A9m+LQ5s4jBATMJ/IwqA9IzlPiVPdicYHLfywcWc/ksWfThmpkVTe3R2MLJ9d90PcQ2oUe9AKDdt8VRBxv1rtdAdE6ZJiC+Lwd+amkzMH/CXkwYwxb4SD4JFMbu4GVtPcyFD5o4Ir3KqZjCjVZqRW1+mbUNl0Xt82SRz6y3vUuv3dZArIcaS6zhvjD17F6R+kqnyheXT3M=~-1~-1~-1",
+            "path": "/",
+            "domain": ".afternic.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674489,
+            "sameSite": "None"
+        },
+        {
+            "name": "ak_bmsc",
+            "value": "2D51FED53299FC66787CA5D4B00261F6~000000000000000000000000000000~YAAQ5yv3wSmlk5SAAQAAEoy75g9619GNtoDTxuY1vXfcTUQeTUwdasHgj5upImGbgAZHfqSRVAKaJre3CBi85bE1b9tfwOsYb+oB488nwyd0EQU4NURtKX8qQfI5WdI0LR7caKzTkiPCHXKswTVw9mmqSsgXSdhGcwWxDYJxqurZSjTWjkoUL+3PBcdFqZYG4Rds+ry7bcYkAomHqkCZuseV4TcdDDcWhlXedzO604/2hM9TrK14GTmVqj++D/ujZPUiAEAjj8WSTOJSrlpPDpgwat3zQwm0/L7wB6DSE26Cja8hPEzdguj48JbZrQqgdJWptPOqNSTtaZiiF7fmXF4qiQ+uJvtVFZABVSz56BYqSO8XrhagZmCPsa/OSogP9NSZPNPXlYEOjT9pPYMAT+56kOM/BvzRCMmB",
+            "path": "/",
+            "domain": ".afternic.com",
+            "secure": false,
+            "httpOnly": true,
+            "expiry": 1653145688,
+            "sameSite": "None"
+        },
+        {
+            "name": "bm_sz",
+            "value": "30CED4D84E06F2AFE0207647097E6E3F~YAAQ5yv3wSqlk5SAAQAAEoy75g8o13RLjIWwPLt8udt/4cb1dcSopzmIC71qtAhQobH1Fn+blRE+cyVW1FoGwRXhgw5bTUATzL2LBnmhs43K7LFMHpYDmLq25dJjNDxb+fSdPxtck++BswihQsiH7c2jMmM+J+Y12VeQT/MDSllyEi6+UGNqv/cMwGwuF8aSnCht0cf4KKaXY0XL3UNY6hRiOJwWcOwhlLZ8UdxyvJ6H8ZTTduxDE5GCMnMdZH1KttD0y0/zMp2ncpqirSCcOIJyZeVP/geDfZ3ZKdaIUyiIDm+M+A==~3160374~4338741",
+            "path": "/",
+            "domain": ".afternic.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653152888,
+            "sameSite": "None"
+        },
+        {
+            "name": "QSI_HistorySession",
+            "value": "https%3A%2F%2Fwww.afternic.com%2F~1653138490640",
+            "path": "/",
+            "domain": "www.afternic.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "bm_sv",
+            "value": "091DE28099001F084B3FED8EECE41935~YAAQ5yv3weGlk5SAAQAA8JC75g/p5yGgg2MFmb4F4bsqll9etYokzFL+WMOvfwESRlpHqXghQX5lHWILsTLkYyFmU+F8jkeXJid6U8xWsvqT80clfEH5Sh7NK3RH9+TVj+m7PtnFfjZ03HeBoHozR9O8Qz0GKDyJSoRfnz6JFfDatmeJAzCA4QySOPif85r6cVRR5NqPYrsVeqwibwi59zYqXHHWx6mjUmNeZ6K5RPMqM5WwRsKeTuVSzkNcsct4Mkc=~1",
+            "path": "/",
+            "domain": ".afternic.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653145689,
+            "sameSite": "None"
+        },
+        {
+            "name": "traffic",
+            "value": "",
+            "path": "/",
+            "domain": ".afternic.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653139690,
+            "sameSite": "None"
+        },
+        {
+            "name": "_policy",
+            "value": "%7B%22restricted_market%22:true,%22tracking_market%22:%22explicit%22%7D",
+            "path": "/",
+            "domain": ".afternic.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674490,
+            "sameSite": "None"
+        },
+        {
+            "name": "pathway",
+            "value": "44978962-7ffa-5bc5-a453-e51ad787288e",
+            "path": "/",
+            "domain": ".afternic.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653139690,
+            "sameSite": "None"
+        },
+        {
+            "name": "fb_sessiontraffic",
+            "value": "S_TOUCH=&pathway=44978962-7ffa-5bc5-a453-e51ad787288e&V_DATE=&pc=0",
+            "path": "/",
+            "domain": ".afternic.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653139690,
+            "sameSite": "None"
+        },
+        {
+            "name": "visitor",
+            "value": "vid=44978962-7ffa-5bc5-a453-e51ad787288e",
+            "path": "/",
+            "domain": ".afternic.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674490,
+            "sameSite": "None"
+        },
+        {
+            "name": "utag_main",
+            "value": "v_id:0180e6bb86910016fc472648469905050001900d00fb8$_sn:1$_ss:1$_st:1653140291026$ses_id:1653138491026%3Bexp-session$_pn:1%3Bexp-session",
+            "path": "/",
+            "domain": ".afternic.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674491,
+            "sameSite": "None"
+        },
+        {
+            "name": "expBannerSplit",
+            "value": "B",
+            "path": "/",
+            "domain": ".afternic.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "OPTOUTMULTI",
+            "value": "0:1%7Cc3:1%7Cc2:1%7Cc4:1%7Cc9:1%7Cc11:1",
+            "path": "/",
+            "domain": ".afternic.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674491,
+            "sameSite": "None"
+        },
+        {
+            "name": "_consentBImpression",
+            "value": "1",
+            "path": "/",
+            "domain": ".afternic.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653139691,
+            "sameSite": "None"
+        }
+    ],
+    "https://cpanel.net": [],
+    "https://amazon.co.jp": [
+        {
+            "name": "session-id",
+            "value": "358-4888409-4981038",
+            "path": "/",
+            "domain": ".amazon.co.jp",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674504,
+            "sameSite": "None"
+        },
+        {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "domain": ".amazon.co.jp",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674504,
+            "sameSite": "None"
+        },
+        {
+            "name": "i18n-prefs",
+            "value": "JPY",
+            "path": "/",
+            "domain": ".amazon.co.jp",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674504,
+            "sameSite": "None"
+        },
+        {
+            "name": "lc-acbjp",
+            "value": "en_US",
+            "path": "/",
+            "domain": ".amazon.co.jp",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674504,
+            "sameSite": "None"
+        },
+        {
+            "name": "sp-cdn",
+            "value": "\"L5Z9:CH\"",
+            "path": "/",
+            "domain": ".amazon.co.jp",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1684674501,
+            "sameSite": "None"
+        },
+        {
+            "name": "skin",
+            "value": "noskin",
+            "path": "/",
+            "domain": ".amazon.co.jp",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "csm-hit",
+            "value": "adb:adblk_no&t:1653138501979",
+            "path": "/",
+            "domain": "www.amazon.co.jp",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1683378501,
+            "sameSite": "None"
+        },
+        {
+            "name": "ubid-acbjp",
+            "value": "357-8089263-5057120",
+            "path": "/",
+            "domain": ".amazon.co.jp",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674505,
+            "sameSite": "None"
+        }
+    ],
+    "https://reuters.com": [
+        {
+            "name": "reuters-geo",
+            "value": "{\"country\":\"CH\", \"region\":\"-\"}",
+            "path": "/",
+            "domain": "www.reuters.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "RT",
+            "value": "\"z=1&dm=reuters.com&si=pwdu536ipxe&ss=l3fvzeza&sl=0&tt=0\"",
+            "path": "/",
+            "domain": ".reuters.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653743306,
+            "sameSite": "None"
+        },
+        {
+            "name": "ta-octane.id",
+            "value": "d86bd61f-8a56-48f6-bc48-b26704683138|d558ed7b-3f7c-439a-a185-0bbb781a7629|1653138507126|",
+            "path": "/",
+            "domain": ".reuters.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716210507,
+            "sameSite": "None"
+        },
+        {
+            "name": "cleared-onetrust-cookies",
+            "value": "Thu, 17 Feb 2022 19:17:07 GMT",
+            "path": "/",
+            "domain": ".reuters.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653743307,
+            "sameSite": "None"
+        },
+        {
+            "name": "OptanonConsent",
+            "value": "isIABGlobal=false&datestamp=Sat+May+21+2022+15%3A08%3A27+GMT%2B0200+(Mitteleurop%C3%A4ische+Sommerzeit)&version=6.31.0&hosts=&consentId=a29b1bd0-767c-47db-ad84-ff77d8b08ff2&interactionCount=0&landingPath=https%3A%2F%2Fwww.reuters.com%2F&groups=1%3A1%2C2%3A0%2C3%3A0%2C4%3A0%2CSTACK42%3A0",
+            "path": "/",
+            "domain": ".reuters.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674507,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "usprivacy",
+            "value": "1---",
+            "path": "/",
+            "domain": "www.reuters.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674509,
+            "sameSite": "Lax"
+        }
+    ],
+    "https://booking.com": [
+        {
+            "name": "_pxhd",
+            "value": "48rzB0ldQRj12pQBwDDAakWI6UFABsN3aLPmaETFqbxjZbI%2FZaM05Y6PNYuTHQw%2FvtV1ua4OwCuFyzRiRo2YSQ%3D%3D%3A0eMbT%2FvIvaPjOdL%2F4Lk%2Fnk8QIPU5hkIT-gZZrBudApZH2A1m8-y5wJ3ptcAHuHuY7XkJKzlyJ7IrBCidnP5n4YcfV1rnjepBPy031IQ135M%3D",
+            "path": "/",
+            "domain": ".booking.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674514,
+            "sameSite": "None"
+        },
+        {
+            "name": "bkng_frontend_sese_exp",
+            "value": "0",
+            "path": "/",
+            "domain": ".booking.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1655730514,
+            "sameSite": "None"
+        },
+        {
+            "name": "cors_js",
+            "value": "1",
+            "path": "/",
+            "domain": ".booking.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674512,
+            "sameSite": "None"
+        },
+        {
+            "name": "bkng",
+            "value": "11UmFuZG9tSVYkc2RlIyh9Yaa29%2F3xUOLbca8KLfxLPecPZiSCHRcwBPSg268umDHP5Aa7GrCyWeYDeVxAYM0ORjVVUOQfjbex8hZnqMV3JfsH9uHdb8ed5zRv2y9M2TEgR6kXzBdVcIVSTBI%2FrJngpc7cEBJIABjkql4o4R5az9ZgGx%2BGV8VQCIGKCQ3Rq8UfSY%2BS4%2BLGgYk%3D",
+            "path": "/",
+            "domain": ".booking.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1810818516,
+            "sameSite": "None"
+        },
+        {
+            "name": "bkng_sso_ses",
+            "value": "e30",
+            "path": "/",
+            "domain": ".booking.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1810818516,
+            "sameSite": "None"
+        },
+        {
+            "name": "bkng_sso_session",
+            "value": "e30",
+            "path": "/",
+            "domain": ".booking.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1810818516,
+            "sameSite": "None"
+        },
+        {
+            "name": "OptanonConsent",
+            "value": "implicitConsentCountry=nonGDPR&implicitConsentDate=1653138513491",
+            "path": "/",
+            "domain": ".www.booking.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674513,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "BJS",
+            "value": "-",
+            "path": "/",
+            "domain": ".booking.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1653224918,
+            "sameSite": "None"
+        }
+    ],
+    "https://wikia.com": [
+        {
+            "name": "Geo",
+            "value": "{%22region%22:%22AG%22%2C%22city%22:%22anglikon%22%2C%22country_name%22:%22switzerland%22%2C%22country%22:%22CH%22%2C%22continent%22:%22EU%22}",
+            "path": "/",
+            "domain": ".fandom.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "optimizelyEndUserId",
+            "value": "oeu1653138517118r0.744776539223727",
+            "path": "/",
+            "domain": ".fandom.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1668690517,
+            "sameSite": "None"
+        }
+    ],
+    "https://amazon.es": [
+        {
+            "name": "session-id",
+            "value": "260-4983278-2599509",
+            "path": "/",
+            "domain": ".amazon.es",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674523,
+            "sameSite": "None"
+        },
+        {
+            "name": "session-id-time",
+            "value": "2082787201l",
+            "path": "/",
+            "domain": ".amazon.es",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674523,
+            "sameSite": "None"
+        },
+        {
+            "name": "i18n-prefs",
+            "value": "EUR",
+            "path": "/",
+            "domain": ".amazon.es",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674523,
+            "sameSite": "None"
+        },
+        {
+            "name": "csm-hit",
+            "value": "adb:adblk_no&t:1653138521546",
+            "path": "/",
+            "domain": "www.amazon.es",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1683378521,
+            "sameSite": "None"
+        },
+        {
+            "name": "ubid-acbes",
+            "value": "259-4683360-1140912",
+            "path": "/",
+            "domain": ".amazon.es",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674525,
+            "sameSite": "None"
+        },
+        {
+            "name": "session-token",
+            "value": "\"9TdWbBMiXc6rwe6vaJzII3DYgk8P9M+wHMVPE2bzE2chQV9NQluTKPbTDemrsvRM8Ab29ezC4IzBBKcs2SAEjiHceU8PfOYLX4hm8eWlmUtnZ/8aHZINg47WwooG3WI+q49ze53QfkY2LxRU6e7ELBJc5hkstw6EwSVtMeqc8wyBxmB+fQtdfd/CJ9R7wmkKyuK19Qz15FzS2NthYjdp2Q==\"",
+            "path": "/",
+            "domain": ".amazon.es",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674522,
+            "sameSite": "None"
+        }
+    ],
+    "https://tripadvisor.com": [
+        {
+            "name": "TADCID",
+            "value": "ckEdxkBwHryb2v8oABQCFdpBzzOuRA-9xvCxaMyI122kAYDcJVny-MQUP0ndzvO6ep2YBYPtaWQ-i_slYAddNZ4ujQGrpmJ90Qw",
+            "path": "/",
+            "domain": ".www.tripadvisor.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1968498527,
+            "sameSite": "None"
+        },
+        {
+            "name": "TAUnique",
+            "value": "%1%enc%3AHARC1EMLan7RsCigVnKSgtIw8RpRX4qmwaOskByW13IYvJ58lDKZ6g%3D%3D",
+            "path": "/",
+            "domain": ".tripadvisor.com",
+            "secure": false,
+            "httpOnly": true,
+            "expiry": 1716210527,
+            "sameSite": "None"
+        },
+        {
+            "name": "__vt",
+            "value": "f726GaFypl2jK-XdABQCIf6-ytF7QiW7ovfhqc-AvR2BoWERRCwDF8NbHhHYeVVbA4wQ74e-R9ahj5Z8M7BNuZcWE1KFx1Oy2mgmGR0UiJFhIgaA7VzN6hFm8IEMDhKWesM51sCCej4kRFjZl38Fucxsdo8",
+            "path": "/",
+            "domain": ".www.tripadvisor.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1653142127,
+            "sameSite": "None"
+        },
+        {
+            "name": "TASSK",
+            "value": "enc%3AAOp18oGeK3E3ZpZFhABL4Z4XNM1feEFntYoRN7nZOmwJsLlFZIRgkOot%2FWNJgxs3B8dYqp1y3FTY9j%2FUWtTE0xYoLR3xkgeJWJKdd0x5imPM6zJyGHEbJXWJAXw1XarsiA%3D%3D",
+            "path": "/",
+            "domain": ".www.tripadvisor.com",
+            "secure": false,
+            "httpOnly": true,
+            "expiry": 1668690527,
+            "sameSite": "None"
+        },
+        {
+            "name": "SRT",
+            "value": "TART_SYNC",
+            "path": "/",
+            "domain": ".www.tripadvisor.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "ServerPool",
+            "value": "A",
+            "path": "/",
+            "domain": ".tripadvisor.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "PMC",
+            "value": "V2*MS.6*MD.20220521*LD.20220521",
+            "path": "/",
+            "domain": ".www.tripadvisor.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1716210527,
+            "sameSite": "None"
+        },
+        {
+            "name": "TART",
+            "value": "%1%enc%3A0bAooFZykoIz6kXGxMqxzPKIJhMOqsIe7cPM8W42FMMZ305t7gyn1r2PMQI9FyBrVuiRTM69Lsg%3D",
+            "path": "/",
+            "domain": ".www.tripadvisor.com",
+            "secure": false,
+            "httpOnly": true,
+            "expiry": 1653570527,
+            "sameSite": "None"
+        },
+        {
+            "name": "TATravelInfo",
+            "value": "V2*A.2*MG.-1*HP.2*FL.3*RS.1",
+            "path": "/",
+            "domain": ".tripadvisor.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1654348127,
+            "sameSite": "None"
+        },
+        {
+            "name": "ak_bmsc",
+            "value": "C38951E6A0E87F1A9027EEEF99F51540~000000000000000000000000000000~YAAQ1yv3wQBN+ZeAAQAAURi85g/uACt/CiwazSJJqhv8lLhQ3yXM2lYok7xEhTLAdldRuVYea4UrIO8JP+EcWVn8DXCg772Y6pAXTJThI6yD3K6fdOeuZZ2h7TT3nPUn9yAyrYUIHD1KWid4pXMvWyDCkUZLiC33Y+E3i/CvozFkxaFRJTIDMBoaEsAfyqrSD/HD+vT1h1urQZkFMS45+oV0tte/v+KY82BN/vjSSan9sSGcp+pmDdX00si/AmN82XQgHMDNtW6bMcKAEKFy6SLNDYJI3u/lzSxGmaT1RcfyNkuWUF9ShqNUskaNn8xnzNCN+RT/gaBcmet6qXnfmDiBpn48QAioDukJXcfbz3I3kiJp/8UirPcP5FJkOEcynBTDpHwpjT/u5TVZkBw=",
+            "path": "/",
+            "domain": ".tripadvisor.com",
+            "secure": false,
+            "httpOnly": true,
+            "expiry": 1653145724,
+            "sameSite": "None"
+        },
+        {
+            "name": "TATrkConsent",
+            "value": "eyJvdXQiOiJBRFYsU09DSUFMX01FRElBIiwiaW4iOiJBTkEsRlVOQ1RJT05BTCJ9",
+            "path": "/",
+            "domain": "www.tripadvisor.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674526,
+            "sameSite": "None"
+        },
+        {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=1&datestamp=Sat+May+21+2022+15%3A08%3A46+GMT%2B0200+(Mitteleurop%C3%A4ische+Sommerzeit)&version=6.30.0&isIABGlobal=false&hosts=&consentId=0bf1a4c1-8f98-4b21-972f-8837755fcce3&interactionCount=0&landingPath=https%3A%2F%2Fwww.tripadvisor.com%2F&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A0",
+            "path": "/",
+            "domain": ".tripadvisor.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674526,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "TASession",
+            "value": "V2ID.A3FBCABAD1C1498692ECF8A772F3CA05*SQ.2*LS.PageMoniker*GR.27*TCPAR.89*TBR.65*EXEX.51*ABTR.45*PHTB.35*FS.59*CPU.29*HS.recommended*ES.popularity*DS.5*SAS.popularity*FPS.oldFirst*FA.1*DF.0*TRA.true*EAU._",
+            "path": "/",
+            "domain": ".tripadvisor.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "PAC",
+            "value": "AFLFSJ3PxFpTT5eNRrlLIduMZJcnYlaKm89up7JCX-xDPDNoxAUHgbwx08L-RLuFj1h0dCexWPklV28WQ351PG4e753SZd2J_xX-dg1m7h06DomY6LyRJ9ZIYYTEsu-2Lw%3D%3D",
+            "path": "/",
+            "domain": ".www.tripadvisor.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1716210530,
+            "sameSite": "None"
+        },
+        {
+            "name": "TAUD",
+            "value": "LA-1653138529963-1*RDD-1-2022_05_21*LG-1-2.1.F.*LD-2-.....",
+            "path": "/",
+            "domain": ".tripadvisor.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1654348130,
+            "sameSite": "None"
+        },
+        {
+            "name": "TASID",
+            "value": "A3FBCABAD1C1498692ECF8A772F3CA05",
+            "path": "/",
+            "domain": ".www.tripadvisor.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653140331,
+            "sameSite": "None"
+        },
+        {
+            "name": "bm_sv",
+            "value": "70EF81A93C99EC745B83A261ADED7897~YAAQ1yv3wS1N+ZeAAQAA8yS85g/YNdHMnurvxM13W+fAgVJ2YoiYdZBV1B+0KwjzylEmYOv5WLkw4It9GIUJrOHqyUMXNjNGMnnYU8XPTxC6aIOAIDsoK7lSgJQB2bOZ1KqwmY+RdFuOifVAM67cJZNecrtK/Jt4vMYNHjm4UAthyR2QKgRcFiQYLqThlrmwDZ+g6TyEvKoRFSbJ++b4qfvv0Yxct8FLaSMudXlsFkAnW3a6cz4mvqsLTMdWzitO88+jhG0=~1",
+            "path": "/",
+            "domain": ".tripadvisor.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653145725,
+            "sameSite": "None"
+        }
+    ],
+    "https://cpanel.com": [],
+    "https://change.org": [
+        {
+            "name": "__cfruid",
+            "value": "d0c02a19be1317c3f6d44c315ac52a5d36cb1c27-1653138537",
+            "path": "/",
+            "domain": ".change.org",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "_change_session",
+            "value": "a78fff55ec2fddb5374392367b22863d",
+            "path": "/",
+            "domain": "www.change.org",
+            "secure": true,
+            "httpOnly": true,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "pxcts",
+            "value": "2d258871-d907-11ec-8710-614877425762",
+            "path": "/",
+            "domain": ".change.org",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "_pxvid",
+            "value": "2d257d00-d907-11ec-8710-614877425762",
+            "path": "/",
+            "domain": ".change.org",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674535,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "optimizelyEndUserId",
+            "value": "oeu1653138536153r0.7263573615797277",
+            "path": "/",
+            "domain": ".change.org",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1668690536,
+            "sameSite": "None"
+        },
+        {
+            "name": "G_ENABLED_IDPS",
+            "value": "google",
+            "path": "/",
+            "domain": ".www.change.org",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 253402257600,
+            "sameSite": "None"
+        },
+        {
+            "name": "_px3",
+            "value": "04fa4fd7afa9e8922b050fe9f09387324b1d18f0695e545d13d3bfaf39a4c912:CyR9itO1fqIIqpY+MNIgEH/mmNEyjzX6/rjEiy9wXlrtb+sbNgjuKEU4wOD8kwuNEJZkFQneAP8KnhoWT5KAJw==:1000:Dx1nMSRLvvBNilng6X8NnQowhrwLAG47yrGWBZRQGygXfOEsFUWBRi/M2nrBLyXo5Grrcu9Qthz6MGmK9NSkx3ds+z7v6aJbMoJ7KyCJxxmakOyXozeO+saTOwcU0cD+o7n1OA/GlgHZN0LEhGcAV9J1DrE/r4cDf0qpJYWgliPXzht1Uyhxx0O5XL5aKkdcZ5+4CKh62SySznqvZ9iq+g==",
+            "path": "/",
+            "domain": ".change.org",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653138866,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "_gcl_au",
+            "value": "1.1.1202903531.1653138539",
+            "path": "/",
+            "domain": ".change.org",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1660914538,
+            "sameSite": "None"
+        },
+        {
+            "name": "_change_lang",
+            "value": "%7B%22locale%22%3A%22de-DE%22%2C%22countryCode%22%3A%22CH%22%7D",
+            "path": "/",
+            "domain": "www.change.org",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653224939,
+            "sameSite": "Strict"
+        }
+    ],
+    "https://ft.com": [
+        {
+            "name": "FTAllocation",
+            "value": "c2902e6d-e7a3-4da2-b224-d54af2e31c90",
+            "path": "/",
+            "domain": ".ft.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674543,
+            "sameSite": "None"
+        },
+        {
+            "name": "o-typography-fonts-loaded",
+            "value": "1",
+            "path": "/",
+            "domain": ".ft.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653743340,
+            "sameSite": "None"
+        },
+        {
+            "name": "spoor-id",
+            "value": "f09acbac-dd49-4bd7-b5e4-a2b5177b4864",
+            "path": "/",
+            "domain": ".ft.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1968498540,
+            "sameSite": "None"
+        }
+    ],
+    "https://webmd.com": [
+        {
+            "name": "lrt_wrk",
+            "value": "lrt1_cached_k8_worker_1_40S_21S_2022-05-19_16:01:30_gdbp_false_gtedgefrom_CLOUDFLARE_E_true_UC_false_UD_false_mp_false_active_true_from_MA1_ovr__config_envName_.k8s.lb._envNameFound_true_actv_true_blk_N/A_1653138547497_hvid_false",
+            "path": "/",
+            "domain": ".webmd.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "gtinfo",
+            "value": "{\"ct\":\"Zurich\",\"c\":null,\"cc\":null,\"st\":\"ZH\",\"sc\":null,\"z\":\"8051\",\"lat\":\"47.40210\",\"lon\":\"8.57520\",\"dma\":null,\"cntr\":\"CHE\",\"cntrc\":\"756\",\"tz\":\"Europe/Zurich\",\"ci\":\"178.199.12.96\",\"debug\":\"Cloudflare\"}",
+            "path": "/",
+            "domain": ".webmd.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "VisitorId",
+            "value": "2266a75f-6197-4e7a-ede7-4b53fa132bdf",
+            "path": "/",
+            "domain": ".webmd.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1968757747,
+            "sameSite": "None"
+        },
+        {
+            "name": "s_fid",
+            "value": "6A9C7166DAF2E8BD-385F700152055302",
+            "path": "/",
+            "domain": ".webmd.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1716296945,
+            "sameSite": "None"
+        },
+        {
+            "name": "s_cc",
+            "value": "true",
+            "path": "/",
+            "domain": ".webmd.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "ui",
+            "value": "{%22vtime%22:27552309%2C%22expmatch%22:1}",
+            "path": "/",
+            "domain": ".webmd.com",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "OptanonConsent",
+            "value": "isGpcEnabled=1&datestamp=Sat+May+21+2022+15%3A09%3A05+GMT%2B0200+(Mitteleurop%C3%A4ische+Sommerzeit)&version=6.21.0&isIABGlobal=false&hosts=&consentId=8518c8a2-d56b-4acd-9be9-3cdc59fb58cd&interactionCount=0&landingPath=https%3A%2F%2Fwww.webmd.com%2F&groups=C0001%3A1%2CC0002%3A0%2CC0004%3A0%2CC0003%3A0%2CSTACK42%3A0",
+            "path": "/",
+            "domain": ".webmd.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1686834545,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "ck_consent",
+            "value": "true",
+            "path": "/",
+            "domain": ".webmd.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730545,
+            "sameSite": "None"
+        }
+    ],
+    "https://ytimg.com": [],
+    "https://hugedomains.com": [
+        {
+            "name": "SHOPPINGCART",
+            "value": "",
+            "path": "/",
+            "domain": "www.hugedomains.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1655730551,
+            "sameSite": "None"
+        },
+        {
+            "name": "REFLOC",
+            "value": "",
+            "path": "/",
+            "domain": "www.hugedomains.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 2599765241,
+            "sameSite": "None"
+        },
+        {
+            "name": "PV",
+            "value": "710DC18BD7942257B5599FB79338CE2B",
+            "path": "/",
+            "domain": "www.hugedomains.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 2599765241,
+            "sameSite": "None"
+        },
+        {
+            "name": "DE3OOK",
+            "value": "11AD6A283AD26C0A053A7EBAE25C0843B554054FA1F2E0B9678A5B51262E57DE037D92839BF4C9899857C46053AEE596",
+            "path": "/",
+            "domain": "www.hugedomains.com",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 2599765241,
+            "sameSite": "None"
+        },
+        {
+            "name": "site_version_phase",
+            "value": "108",
+            "path": "/",
+            "domain": "www.hugedomains.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684242551,
+            "sameSite": "None"
+        },
+        {
+            "name": "site_version",
+            "value": "HDv3",
+            "path": "/",
+            "domain": "www.hugedomains.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684242551,
+            "sameSite": "None"
+        },
+        {
+            "name": "HDF",
+            "value": "C648C7CF7F2535B583A3F36F2665DF415A4177632EA92191CB85915F3242BC7399D31603E4807530958070810E35079A",
+            "path": "/",
+            "domain": "www.hugedomains.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 2599765242,
+            "sameSite": "None"
+        },
+        {
+            "name": "HD",
+            "value": "868C85BA4CB946C5BDE73E7B444F5A42073",
+            "path": "/",
+            "domain": "www.hugedomains.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 2599765242,
+            "sameSite": "None"
+        }
+    ],
+    "https://independent.co.uk": [
+        {
+            "name": "esi-permutive-id",
+            "value": "(null)",
+            "path": "/",
+            "domain": "independent.co.uk",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "Locale",
+            "value": "UK",
+            "path": "/",
+            "domain": "www.independent.co.uk",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "gdpr",
+            "value": "0",
+            "path": "/",
+            "domain": "www.independent.co.uk",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "subscriber_origin",
+            "value": "others",
+            "path": "/",
+            "domain": "www.independent.co.uk",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "_pc_subscriber_origin",
+            "value": "others",
+            "path": "/",
+            "domain": "www.independent.co.uk",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "fresh8_toggle",
+            "value": "1",
+            "path": "/",
+            "domain": "www.independent.co.uk",
+            "secure": false,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "esi-uuid",
+            "value": "d849054b-ae88-41cb-a6c6-4c1f479bb0af",
+            "path": "/",
+            "domain": "www.independent.co.uk",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1684674556,
+            "sameSite": "None"
+        },
+        {
+            "name": "esi-permutive-id",
+            "value": "d849054b-ae88-41cb-a6c6-4c1f479bb0af",
+            "path": "/",
+            "domain": "www.independent.co.uk",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "consentUUID",
+            "value": "b29c62cf-b66b-40ea-96b4-d36764c2e3d1",
+            "path": "/",
+            "domain": ".independent.co.uk",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674553,
+            "sameSite": "None"
+        },
+        {
+            "name": "ccpaUUID",
+            "value": "8f8327d3-ad9d-45b2-a1f7-e6e4710da1de",
+            "path": "/",
+            "domain": ".independent.co.uk",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674553,
+            "sameSite": "None"
+        },
+        {
+            "name": "dnsDisplayed",
+            "value": "false",
+            "path": "/",
+            "domain": ".independent.co.uk",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674553,
+            "sameSite": "None"
+        },
+        {
+            "name": "ccpaApplies",
+            "value": "false",
+            "path": "/",
+            "domain": ".independent.co.uk",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674553,
+            "sameSite": "None"
+        },
+        {
+            "name": "signedLspa",
+            "value": "false",
+            "path": "/",
+            "domain": ".independent.co.uk",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1684674553,
+            "sameSite": "None"
+        }
+    ],
+    "https://google.fr": [
+        {
+            "name": "CONSENT",
+            "value": "PENDING+898",
+            "path": "/",
+            "domain": ".google.fr",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1716210560,
+            "sameSite": "None"
+        },
+        {
+            "name": "AEC",
+            "value": "AakniGMY5U6oa7QCXJ-mvfkQytNfWHNrhYv08DgFzzjOzCjbkp9VPUPExg",
+            "path": "/",
+            "domain": ".google.fr",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1668690560,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "__Secure-ENID",
+            "value": "4.SE=m0QUFO1M-V650gy9-Fk603aPypkN0549J3oLkZn9owHoY3ggdVn5W6Cm8qUG7iZmDkCCSa6ZDD5SUWl3D8puRmdhtXl5G2f31Y6VlkZkwEEeKr761tbEymGFByDM4H8RGlp1kAuVoBi0JRp8ndwyKUAEwqb5gatWZgKYNjliyg8",
+            "path": "/",
+            "domain": ".google.fr",
+            "secure": true,
+            "httpOnly": true,
+            "expiry": 1687325258,
+            "sameSite": "Lax"
+        }
+    ],
+    "https://shutterstock.com": [
+        {
+            "name": "n_v",
+            "value": "fa089001212-prod",
+            "path": "/",
+            "domain": "www.shutterstock.com",
+            "secure": true,
+            "httpOnly": false,
+            "sameSite": "None"
+        },
+        {
+            "name": "sstk_anonymous_id",
+            "value": "f9fa39ad-f3c8-419e-944c-c2501124ebdc",
+            "path": "/",
+            "domain": ".shutterstock.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1968498561,
+            "sameSite": "None"
+        },
+        {
+            "name": "visit_id",
+            "value": "75031694557",
+            "path": "/",
+            "domain": ".shutterstock.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1653140365,
+            "sameSite": "Strict"
+        },
+        {
+            "name": "visitor_id",
+            "value": "68495913446",
+            "path": "/",
+            "domain": ".shutterstock.com",
+            "secure": true,
+            "httpOnly": false,
+            "expiry": 1968757765,
+            "sameSite": "Strict"
+        },
+        {
+            "name": "ab.storage.deviceId.95d74328-5ce0-48dd-97aa-f6f9e27ce034",
+            "value": "%7B%22g%22%3A%22f19dbd2f-e376-131e-8a70-747af94d75f1%22%2C%22c%22%3A1653138563291%2C%22l%22%3A1653138563291%7D",
+            "path": "/",
+            "domain": ".shutterstock.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684695503,
+            "sameSite": "None"
+        },
+        {
+            "name": "ab.storage.sessionId.95d74328-5ce0-48dd-97aa-f6f9e27ce034",
+            "value": "%7B%22g%22%3A%22c0c39c64-62d1-ffac-efa5-a7055b41ad9a%22%2C%22e%22%3A1653140363295%2C%22c%22%3A1653138563290%2C%22l%22%3A1653138563295%7D",
+            "path": "/",
+            "domain": ".shutterstock.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684695503,
+            "sameSite": "None"
+        },
+        {
+            "name": "ssnext",
+            "value": "true",
+            "path": "/",
+            "domain": "www.shutterstock.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653139463,
+            "sameSite": "None"
+        },
+        {
+            "name": "sstk_session_id",
+            "value": "a2e1fcb9-c9cf-45e6-93f5-4bd71dcaff2b",
+            "path": "/",
+            "domain": ".shutterstock.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1653140364,
+            "sameSite": "None"
+        },
+        {
+            "name": "OptanonConsent",
+            "value": "isIABGlobal=false&datestamp=Sat+May+21+2022+15%3A09%3A25+GMT%2B0200+(Mitteleurop%C3%A4ische+Sommerzeit)&version=6.32.0&hosts=&consentId=2e7dfb9d-db6b-4870-b2b9-fff3755d13bd&interactionCount=1&landingPath=https%3A%2F%2Fwww.shutterstock.com%2F&groups=C0001%3A1%2CC0003%3A1%2CSPD_BG%3A1%2CC0002%3A1%2CC0005%3A1%2CC0004%3A1%2CC0007%3A1",
+            "path": "/",
+            "domain": ".shutterstock.com",
+            "secure": false,
+            "httpOnly": false,
+            "expiry": 1684674565,
+            "sameSite": "Lax"
+        }
+    ]
+}

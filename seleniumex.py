@@ -2,8 +2,7 @@ import time
 import json
 from os import path
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.chrome.options import Options 
+from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.chrome.service import Service
 
 
@@ -38,14 +37,19 @@ def save_tracking_dict(data, file_out):
 
 # Read cookies
 def get_cookies(driver, link, position):
-    # call website
-    driver.get(link)
+    try:
+        # call website
+        driver.get(link)
+        # sleep for 3 seconds for page loading & ConsentOMatic
+        time.sleep(3)
 
-    # sleep for 3 seconds for page loading & ConsentOMatic
-    time.sleep(3)
+        # read cookies
+        my_cookies = driver.get_cookies()
 
-    # read cookies
-    my_cookies = driver.get_cookies()
+
+    except WebDriverException:
+        print('Error: WebDriverException')
+        my_cookies = []
 
     # print the currently viewed page to console
     print(f"{position}) {driver.title} - {driver.current_url}")
@@ -67,7 +71,7 @@ def write_output(tracking_dict):
 
 def process_pages(driver):
     # load dict with URLs and empty lists for cookie storage
-    tracking_dict = create_tracking_dict('cookiebot_links.txt')
+    tracking_dict = create_tracking_dict('top_100_links.txt')
 
     # iterate over url and cookie_storage, append new cookies
     for url, cookie_storage in tracking_dict.items():
@@ -78,12 +82,17 @@ def process_pages(driver):
 
 
 def setup_chrome():
+    from selenium.webdriver.chrome.options import Options 
+
     chrome_options = webdriver.ChromeOptions()
     ser = Service(path.join(path.abspath(path.curdir), 'chromedriver.exe'))
 
+    addon_dir = path.join(path.abspath(path.curdir), 'addons\Chrome')
+
     # Install Extension ConsentOMatic
-    addon_dir = path.join(path.abspath(path.curdir), 'addons')
     chrome_options.add_extension(path.join(addon_dir, 'Consent-O-Matic-1.0.2.crx'))
+    # Install Extension CookieBlock
+    chrome_options.add_extension(path.join(addon_dir, 'CookieBlock.crx'))
 
     chrome = webdriver.Chrome(service=ser,options=chrome_options)    
 
@@ -91,24 +100,25 @@ def setup_chrome():
 
 
 def setup_firefox():
-    firefox_options = Options()
-    firefox_options.add_argument("-private")
+    from selenium.webdriver.firefox.options import Options
 
-    firefox = webdriver.Firefox(options=firefox_options)
-    firefox.delete_all_cookies()
+    #firefox_options = Options()
+    #firefox_options.add_argument("-private")
+    #firefox = webdriver.Firefox(options=firefox_options)
 
-    addon_dir = path.join(path.abspath(path.curdir), 'addons')
+    firefox = webdriver.Firefox()
+
+    addon_dir = path.join(path.abspath(path.curdir), 'addons\Firefox')
 
     # Install Extension PrivacyBadger
-    # install_addon(driver, path.join(addon_dir, 'privacy_badger-2021.11.23.1-an+fx.xpi'),
-    #              temporary=True)
+    install_addon(firefox, path.join(addon_dir, 'privacy_badger-2021.11.23.1-an+fx.xpi'), temporary=True)
+
+    # Install Extension CookieBlock
+    #install_addon(firefox, path.join(addon_dir, 'cookieblock-1.0.0.xpi'), temporary=True)
 
     # Install Extension ConsentOMatic
-    # install_addon(firefox, path.join(addon_dir, 'consent_o_matic-1.0.0-an+fx.xpi'),
-    #              temporary=True)
-
-    # go to first tab for ConsentOMatic to work
-    firefox.switch_to.window(firefox.current_window_handle)
+    install_addon(firefox, path.join(addon_dir, 'consent_o_matic-1.0.0-an+fx.xpi'),
+                  temporary=True)
 
     return firefox
 
@@ -116,8 +126,11 @@ def setup_firefox():
 if __name__ == '__main__':
     # Initial load of the browser (Chrome or Firefox)
 
-    # driver = setup_firefox()
+    #driver = setup_firefox()
     driver = setup_chrome()
+
+    # go to first tab for ConsentOMatic to work
+    driver.switch_to.window(driver.current_window_handle)
 
     # run main processing function
     process_pages(driver)
