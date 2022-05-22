@@ -6,6 +6,3 @@ It allows the installation of various extensions
 Install selenium:
     pip install -U selenium
     pip install webdriver-manager
-
-Install geckodriver for Chrome
-    https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/

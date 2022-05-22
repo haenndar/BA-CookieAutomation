@@ -78,13 +78,14 @@ def process_pages(driver):
         pos = list(tracking_dict).index(url) + 1
         cookie_storage.extend(get_cookies(driver, url, pos))
 
-    write_output(tracking_dict)
+    return tracking_dict
 
 
 def setup_chrome():
-    from selenium.webdriver.chrome.options import Options 
+    from selenium.webdriver.chrome.options import Options
 
     chrome_options = webdriver.ChromeOptions()
+
     # start Chrome in incognito mode
     #chrome_options.add_argument('--incognito')
 
@@ -101,7 +102,7 @@ def setup_chrome():
     # Install Extension ConsentOMatic
     chrome_options.add_extension(path.join(addon_dir, 'Consent-O-Matic-1.0.2.crx'))
 
-    chrome = webdriver.Chrome(service=ser,options=chrome_options)    
+    chrome = webdriver.Chrome(service=ser,options=chrome_options)
 
     return chrome
 
@@ -141,7 +142,10 @@ if __name__ == '__main__':
     driver.switch_to.window(driver.current_window_handle)
 
     # run main processing function
-    process_pages(driver)
+    tracking_dict = process_pages(driver)
+
+    # write dictionary to JSON output
+    write_output(tracking_dict)
 
     # cleanup
     driver.quit()
